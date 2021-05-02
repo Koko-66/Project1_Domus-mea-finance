@@ -37,6 +37,12 @@ body {
     margin: 0 auto;
 }
 
+.navbar {
+    background: #1b3d2f;
+    height: 50px;
+    border-top: 2px solid #fff9ec;
+}
+
 .navbar ul {
     display: flex;
     flex-direction: row;
@@ -46,8 +52,13 @@ body {
 
 .navbar li {
     padding: 10px;
+    color: #fff9ec;
+    margin-top: 5px;
 }
 
 .navbar a{
     text-decoration: none;
+    color: #fff9ec;
+    font-weight: 900;
+    text-align: center;
 }
