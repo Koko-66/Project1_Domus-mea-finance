@@ -4,6 +4,7 @@
 #fff9ec - off white
 #c2b697 - goldish
 #1b3d2f - green
+#a78f18 - yellow
 */
 
 * {
@@ -52,6 +53,13 @@ body {
     clear: both;
 }
 
+.greenbar a {
+    text-decoration: none;
+    color: #fff9ec;
+    font-weight: 900;
+    text-align: center;
+}
+
 #menu ul {
     display: flex;
     flex-direction: row;
@@ -64,12 +72,8 @@ body {
     margin-top: 5px;
 }
 
-.greenbar a {
-    text-decoration: none;
-    color: #fff9ec;
-    font-weight: 900;
-    text-align: center;
-}
+
+/* footer */
 
 #footer {
     position: fixed;
@@ -95,24 +99,31 @@ body {
     float: left;
     text-align: center;
     margin:0 auto; 
-    border: 2px, solid white;
 }
 
 #footer-center {
     width: 33%;
     text-align: center;
     margin: 0 auto;
-    border: 2px, solid white;
 }
 
 #social-links {
-    /* float: center;  */
-    clear: both;
-    margin: auto 0;
+    float: center; 
+    margin-top: 10px;
 }
+
 #social-links ul {
-    display: flex;
-    flex-direction: row;
-    float: center;
+    display: inline-table;
     list-style-type: none;
-    margin: auto 0;
+}
+
+#social-links li {
+    display: inline-block;
+}
+
+#social-links a {
+    color: #a78f18;
+    padding: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
