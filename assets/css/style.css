@@ -55,55 +55,53 @@ h1, h2, h3 {
     background: url("https://domusmeafinance.co.uk/wp-content/uploads/2019/07/logo-60.png") no-repeat bottom right;
     height: 60px;
     width: 40%;
-    margin-top: 230px;
-    margin-right: 70px;
-    /* background-color: rgb(168,169,172); */
-    /* padding-right: 70px;
-    margin-top: 200px; */
-    /* margin: 0 auto; */
+    position: relative;
+    margin-top: 150px;
+    margin-right: 2%;
 }
 
 #hero-image {
     background: url("../images/pexels-moose-photos-1037912_resized\ for\ site.jpg") no-repeat top center;
     height: 300px;
     width: 70%;
+    position: relative;
 }
 
+/* navigation menu */
 
 .longbar {
     background: #262528;
     color: #fff9ec;
     height: 3em;
-    border: 2px solid #fff9ec;
-    /* width:100%; */
+    border-top: 2px solid #fff9ec;
     clear: both;
     margin: 0 auto;
-
+    position: relative;
 }
 
 .longbar a {
     text-decoration: none;
     color: #fff9ec;
-    font-weight: 900;
+    font-size: 20px;
+    font-weight: 400;
     text-align: center;
 }
 
 #menu ul {
-    display: flex;
-    flex-direction: row;
-    float: right;
-    list-style-type: none;
-    margin-right: 70px;
-    margin-top: 13px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative; 
 }
 
 .menu-item {
-    padding-left: 70px;
-    /* padding-right: 20px;    */
+    display: inline-block;
+    text-align: center;
 }
 
 .menu-item a {
-    padding: 10px;
+    padding: 12px 20px;
 }
 
 .menu-item a:hover {
@@ -171,3 +169,22 @@ h1, h2, h3 {
     text-align: center;
 }
 
+/* main content */
+
+.long-section {
+    column-count: 2;
+    text-align: justify;
+    column-gap: 20px;
+    padding: 20px;
+
+}
+
+#about-us {
+    padding: 10px;
+}
+
+#services {
+    column-count: 3;
+    column-gap: 20px;
+
+}
