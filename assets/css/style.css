@@ -171,20 +171,37 @@ h1, h2, h3 {
 
 /* main content */
 
+.section {
+    padding: 20px; 
+    position: relative;
+    clear: both;
+}
+
+/* about us */
 .long-section {
     column-count: 2;
     text-align: justify;
     column-gap: 20px;
     padding: 20px;
-
+    clear: both;
+    margin: auto 0;
 }
 
-#about-us {
-    padding: 10px;
+.three-im {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    float: left;
+    clear: both;
+    margin-top: 20px;
 }
 
-#services {
-    column-count: 3;
-    column-gap: 20px;
-
+.img3 {
+    text-align: left;
+    width: 33%;
+    background: rgba(38, 37, 40, 0.2);
+    height: 200px;
+    border: 5px solid white;
+    padding-top: 2px;
+    padding-left: 5px;
 }
