@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&family=Raleway:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,100&display=swap');
 
 /* colors 
 #fff9ec - off white
-#c2b697 - goldish
+#c2b697 - goldish / #dad0b9
 #1b3d2f - green
 #a78f18 - yellow
+91c0b7 - blue
+#8433e - red
+#grey - rgb(168,169,172)
 */
 
 * {
@@ -14,9 +19,9 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1,100;
+    font-size: 14px;
     
     height:100%;
     min-height:100%;
@@ -24,36 +29,53 @@ body {
     margin:0 auto -100px;
 }
 
-/* h1, h2, h3 {
-    font-family: 'Roboto', sans-serif;
+h1, h2, h3 {
+    font-family: 'Relay', sans-serif;
     font-weight: 100;
-} */
-#logo-container {
-    background-color: #c2b697;
-    width: 100%;
-    height: 100px;
-    overflow: hidden;
-    clear: both;
-    margin: 0 auto;
-}
-
-#logo {
-    background: url("https://domusmeafinance.co.uk/wp-content/uploads/2019/07/logo-60.png") no-repeat center center;
-    height: 100px;
-    margin: 0 auto;
 }
 
 /* header */
-.greenbar {
-    background: #1b3d2f;
-    color: #fff9ec;
-    height: 50px;
-    border: 2px solid #fff9ec;
-    width:100%;
-    clear: both;
+
+#header {
+    background-color: rgb(168,169,172);
 }
 
-.greenbar a {
+#logo-container {
+    background-color: transparent;
+    width: 100%;
+    float: right;
+    position: relative;
+    margin-right: 70px;
+    margin-top: 200px;
+    height: 70px;
+    overflow: hidden;
+}
+
+#logo {
+    background: url("https://domusmeafinance.co.uk/wp-content/uploads/2019/07/logo-60.png") no-repeat right center;
+    height: 70px;
+    margin: 0 auto;
+}
+
+#hero-image {
+    background: url("../images/pexels-moose-photos-1037912_resized\ for\ site.jpg") no-repeat top center;
+    height: 300px;
+    width: 70%;
+}
+
+
+.longbar {
+    background: #262528;
+    color: #fff9ec;
+    height: 3em;
+    border: 2px solid #fff9ec;
+    /* width:100%; */
+    clear: both;
+    margin: 0 auto;
+
+}
+
+.longbar a {
     text-decoration: none;
     color: #fff9ec;
     font-weight: 900;
@@ -65,20 +87,28 @@ body {
     flex-direction: row;
     float: right;
     list-style-type: none;
+    margin-right: 70px;
 }
 
 .menu-item {
-    padding: 10px;
-    margin-top: 5px;
+    padding-left: 70px;
+    /* padding-right: 20px; */
+    margin-top: 13px;
 }
 
+.menu-item:hover {
+    background: #84333e;
+}
 
 /* footer */
 
 #footer {
     position: fixed;
     bottom: 0;
-    height: 100px;
+    width: 100%;
+    color: rgb(182,183,186);
+    /* height: 75px; */
+    padding-top: 10px;
     /* height:100px; */
 }
 #contact {
@@ -107,9 +137,10 @@ body {
     margin: 0 auto;
 }
 
+/* footer social links */ś
 #social-links {
     float: center; 
-    margin-top: 10px;
+    margin-top: 2px;
 }
 
 #social-links ul {
@@ -122,8 +153,9 @@ body {
 }
 
 #social-links a {
-    color: #a78f18;
+    color: rgb(182,183,186);
     padding: 10px;
     margin-top: 5px;
     text-align: center;
 }
+
