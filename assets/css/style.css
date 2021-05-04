@@ -44,13 +44,6 @@ h1, h2, h3 {
     width: 100%;
 }
 
-/* .logo-container {
-    background-color: rgb(168,169,172);
-    width: 30%;
-    float: right;
-} */
-
-
 #logo {
     background: url("https://domusmeafinance.co.uk/wp-content/uploads/2019/07/logo-60.png") no-repeat bottom right;
     height: 60px;
@@ -85,6 +78,8 @@ h1, h2, h3 {
     font-size: 20px;
     font-weight: 400;
     text-align: center;
+    padding: 5px;
+    margin: 30px;
 }
 
 #menu ul {
@@ -95,13 +90,9 @@ h1, h2, h3 {
     position: relative; 
 }
 
-.menu-item {
+#menu li {
     display: inline-block;
     text-align: center;
-}
-
-.menu-item a {
-    padding: 12px 20px;
 }
 
 .menu-item a:hover {
