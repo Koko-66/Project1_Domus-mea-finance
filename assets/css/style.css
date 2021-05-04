@@ -32,6 +32,7 @@ body {
 h1, h2, h3 {
     font-family: 'Relay', sans-serif;
     font-weight: 100;
+    font-size: 28px;
 }
 
 /* header */
@@ -177,7 +178,7 @@ h1, h2, h3 {
     clear: both;
     margin: auto 0;
 }
-
+/* sections with three images */
 .three-im {
     display: flex;
     flex-direction: row;
@@ -185,14 +186,55 @@ h1, h2, h3 {
     float: left;
     clear: both;
     margin-top: 20px;
+    height: 300px;
 }
 
-.img3 {
-    text-align: left;
+.service-img {
+    text-align: center;
     width: 33%;
     background: rgba(38, 37, 40, 0.2);
-    height: 200px;
+    height: 100%;
     border: 5px solid white;
     padding-top: 2px;
     padding-left: 5px;
+}
+
+.im-label-light {
+    color: #fff9ec;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 20px; 
+    font-weight: 400;
+    background-color: rgba(38, 37, 40, 0.7);
+    padding: 5px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.im-label-dark {
+    color: #fff9ec;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 20px; 
+    font-weight: 400;
+    background-color: rgba(38, 37, 40, 0.7);
+    padding: 5px;
+    width: 50%;
+    text-decoration: none;
+}
+
+/* services section */
+
+#service-img1 {
+    background: url("../images/tierra-mallorca-JXI2Ap8dTNc-unsplash_resize_470x330.jpg") no-repeat center center;
+    height: 100%;
+    
+}
+
+#service-img2 {
+    background: url("../images/marek-studzinski-ELXxMMSF_L8-unsplash-resized\ for\ site.jpg") no-repeat center center;
+    height: 100%;
+}
+
+#service-img3 {
+    background: url("../images/pexels-adrianna-calvo-17739_resized_470x330.jpg") no-repeat center center;
+    height: 100%;
 }
