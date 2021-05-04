@@ -18,6 +18,13 @@
     border: 0;
 }
 
+hr {
+    border: 2px solid rgb(38, 37, 40);
+    width: 96%;
+    float: right;
+    margin: 20px 0px 10px 0;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 1,100;
@@ -33,9 +40,16 @@ h1, h2, h3 {
     font-family: 'Relay', sans-serif;
     font-weight: 100;
     font-size: 28px;
+    padding: 10px;
 }
 
-/* header */
+.intext-link {
+    color: #a78f18;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+/* _____header */
 
 .top-container {
     display: flex;
@@ -68,7 +82,7 @@ h1, h2, h3 {
     position: relative;
 }
 
-/* navigation menu */
+/* _____navigation menu */
 
 .longbar {
     background: #262528;
@@ -109,14 +123,15 @@ h1, h2, h3 {
 .active {
     background-color: #a78f18;
 }
-/* footer */
+
+/* ______footer */
 
 #footer {
     position: fixed;
     bottom: 0;
     width: 100%;
     color: rgb(182,183,186);
-    /* height: 75px; */
+    height: 75px;
     padding-top: 10px;
     /* height:100px; */
 }
@@ -146,7 +161,8 @@ h1, h2, h3 {
     margin: 0 auto;
 }
 
-/* footer social links */ś
+/* footer social links */
+
 #social-links {
     float: center; 
     margin-top: 2px;
@@ -168,12 +184,13 @@ h1, h2, h3 {
     text-align: center;
 }
 
-/* main content */
+/* ______main content */
 
 .section {
     padding: 20px; 
     position: relative;
     clear: both;
+    /* margin-bottom: 10px; */
 }
 
 /* about us */
@@ -181,9 +198,9 @@ h1, h2, h3 {
     column-count: 2;
     text-align: justify;
     column-gap: 20px;
-    padding: 20px;
-    clear: both;
-    margin: auto 0;
+    padding: 10px;
+    /* clear: both;
+    margin: auto 0; */
 }
 /* sections with three images */
 .three-im {
@@ -193,55 +210,57 @@ h1, h2, h3 {
     float: left;
     clear: both;
     margin-top: 20px;
-    height: 300px;
+    height: 450px;
 }
 
 .service-img {
-    text-align: center;
     width: 33%;
-    background: rgba(38, 37, 40, 0.2);
-    height: 100%;
+    /* background: rgba(38, 37, 40); - color for large screens */
+    /* background: rgb(167, 143, 24, 0.6); */ 
+    height: 250px;
     border: 5px solid white;
-    padding-top: 2px;
-    padding-left: 5px;
+    padding: 5px;
+    clear: both;
+    text-align: center;
 }
 
-.im-label-light {
-    color: #fff9ec;
-    font-family: 'Montserrat' sans-serif;
+.im-label {
+    color: rgb(38, 37, 40);
+    /* color: #fff9ec; - color for large screens */
+    text-align: center;
     font-size: 20px; 
     font-weight: 400;
-    background-color: rgba(38, 37, 40, 0.7);
-    padding: 5px;
     width: 100%;
     text-decoration: none;
+    margin-bottom: 5px;
 }
 
-.im-label-dark {
-    color: #fff9ec;
-    font-family: 'Montserrat' sans-serif;
-    font-size: 20px; 
-    font-weight: 400;
-    background-color: rgba(38, 37, 40, 0.7);
-    padding: 5px;
-    width: 50%;
-    text-decoration: none;
+.im-label:hover {
+    color: #84333e;
 }
+
+ .service-img p {
+     text-align: justify;
+     padding: 5px;
+ }
 
 /* services section */
 
+#service-img1, #service-img2, #service-img3 {
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 #service-img1 {
     background: url("../images/tierra-mallorca-JXI2Ap8dTNc-unsplash_resize_470x330.jpg") no-repeat center center;
-    height: 100%;
-    
 }
 
 #service-img2 {
     background: url("../images/marek-studzinski-ELXxMMSF_L8-unsplash-resized\ for\ site.jpg") no-repeat center center;
-    height: 100%;
+    
 }
 
 #service-img3 {
     background: url("../images/pexels-adrianna-calvo-17739_resized_470x330.jpg") no-repeat center center;
-    height: 100%;
 }
