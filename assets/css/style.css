@@ -61,6 +61,13 @@ h1, h2, h3 {
     position: relative;
 }
 
+#tagline {
+    color: #fff9ec;
+    margin-top: 100px;
+    text-align: right;
+    position: relative;
+}
+
 /* navigation menu */
 
 .longbar {
@@ -96,7 +103,7 @@ h1, h2, h3 {
     text-align: center;
 }
 
-.menu-item a:hover {
+.longbar a:hover {
     background-color: #84333e;
 }
 .active {
