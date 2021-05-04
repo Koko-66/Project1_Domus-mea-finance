@@ -33,7 +33,9 @@ body {
     height:100%;
     min-height:100%;
     height:auto !important;
+    margin: 0 10px 0 10px;
     margin:0 auto -100px;
+
 }
 
 h1, h2, h3 {
@@ -41,6 +43,7 @@ h1, h2, h3 {
     font-weight: 100;
     font-size: 28px;
     padding: 10px;
+    margin-bottom: 20px;
 }
 
 .intext-link {
@@ -209,7 +212,7 @@ h1, h2, h3 {
     width: 100%;
     float: left;
     clear: both;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     height: 450px;
 }
 
@@ -264,3 +267,5 @@ h1, h2, h3 {
 #service-img3 {
     background: url("../images/pexels-adrianna-calvo-17739_resized_470x330.jpg") no-repeat center center;
 }
+
+/* Why us - testimonies section */
