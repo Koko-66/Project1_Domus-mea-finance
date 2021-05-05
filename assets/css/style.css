@@ -307,5 +307,17 @@ fieldset label {
 }
 
 #contact-form {
-    
+    width: 40%;
+    height: 300px;
+    background-color: #84333e;
+    border: 5px solid black;
+}
+
+#contact-image {
+    background: url("../images/pexels-andrew-neel-2312369-resized.jpg") no-repeat right center;
+    height: 100%;
+    width: 60%;
+    float: left;
+    margin: 10px;
+    border: 5px solid white;
 }
