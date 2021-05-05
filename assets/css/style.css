@@ -40,8 +40,7 @@ body {
 
 h1, h2, h3 {
     font-family: 'Relay', sans-serif;
-    font-weight: 100;
-    font-size: 28px;
+    font-weight: 200;
     padding: 10px;
     margin-bottom: 20px;
 }
@@ -206,21 +205,20 @@ h1, h2, h3 {
     margin: auto 0; */
 }
 /* sections with three images */
-.three-im {
+.im-row {
     display: flex;
     flex-direction: row;
     width: 100%;
     float: left;
     clear: both;
     /* margin-top: 20px; */
-    height: 450px;
+    min-height: 300px;
 }
 
-.service-img {
+.im-outer {
     width: 33%;
     /* background: rgba(38, 37, 40); - color for large screens */
     /* background: rgb(167, 143, 24, 0.6); */ 
-    height: 250px;
     border: 5px solid white;
     padding: 5px;
     clear: both;
@@ -242,14 +240,14 @@ h1, h2, h3 {
     color: #84333e;
 }
 
- .service-img p {
+ .im-outer p {
      text-align: justify;
      padding: 5px;
  }
 
 /* services section */
 
-#service-img1, #service-img2, #service-img3 {
+.in-row-im {
     height: 250px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -268,4 +266,16 @@ h1, h2, h3 {
     background: url("../images/pexels-adrianna-calvo-17739_resized_470x330.jpg") no-repeat center center;
 }
 
+#testimony-img1 {
+    background: url("../images/pexels-kindel-media-7578931_resized.jpg") no-repeat center center;
+}
+
+#testimony-img2 {
+    background-color: rosybrown;
+    background: url("../images/pexels-mikhail-nilov-7735694_resized.jpg") no-repeat center center;
+}
+
+#testimony-img3 {
+    background: url("../images/pexels-william-fortunato-resized.jpg") no-repeat center center;
+}
 /* Why us - testimonies section */
