@@ -122,6 +122,7 @@ h1, h2, h3 {
 .longbar a:hover {
     background-color: #84333e;
 }
+
 .active {
     background-color: #a78f18;
 }
@@ -137,6 +138,7 @@ h1, h2, h3 {
     padding-top: 10px;
     /* height:100px; */
 }
+
 #contact {
     display: flex;
     flex-direction: row-reverse;
@@ -195,8 +197,13 @@ h1, h2, h3 {
     /* margin-bottom: 10px; */
 }
 
+.section p {
+    padding: 10px;
+    font-size: 14;
+}
+
 /* about us */
-.long-section {
+.two-columns {
     column-count: 2;
     text-align: justify;
     column-gap: 20px;
@@ -266,16 +273,39 @@ h1, h2, h3 {
     background: url("../images/pexels-adrianna-calvo-17739_resized_470x330.jpg") no-repeat center center;
 }
 
+/* Why us - testimonies section */
+
 #testimony-img1 {
     background: url("../images/pexels-kindel-media-7578931_resized.jpg") no-repeat center center;
 }
 
 #testimony-img2 {
-    background-color: rosybrown;
     background: url("../images/pexels-mikhail-nilov-7735694_resized.jpg") no-repeat center center;
 }
 
 #testimony-img3 {
     background: url("../images/pexels-william-fortunato-resized.jpg") no-repeat center center;
 }
-/* Why us - testimonies section */
+
+/* contact form */
+
+.form-input {
+    line-height: 2em;
+    padding: 5px; 
+}
+
+.input-box {
+    border: 2px solid #262528;
+    width: 30%;
+    margin-left: 40px;
+    position: absolute;
+}
+
+fieldset label {
+    margin: 20px;
+    font: 24px;
+}
+
+#contact-form {
+    
+}
