@@ -20,7 +20,7 @@
     border: 0;
 }
 
-
+""
 body {
     font-family: 'Nunito', sans-serif;
     font-weight: 1,100;
@@ -44,7 +44,8 @@ h1, h2, h3 {
     padding: 10px;
     margin-bottom: 20px;
     font-size: 2rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+    font-variant: small-caps;
 }
 
 .heading {
@@ -120,6 +121,7 @@ h1, h2, h3 {
     text-align: center;
     padding: 5px;
     margin: 30px;
+    font-variant: small-caps;
 }
 
 #menu ul {
