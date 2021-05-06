@@ -22,8 +22,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 1,100;
-    font-size: 18px;
-    
+    font-size: 16px;
     height:100%;
     min-height:100%;
     height:auto !important;
@@ -105,7 +104,7 @@ h1, h2, h3 {
     height: 2.5em;
     border-top: 2px solid #fff9ec;
     border-bottom: 2px solid #fff9ec;
-    padding-top: 2px;
+    padding: 2px;
     clear: both;
     margin: 0 auto;
     position: relative;
@@ -124,8 +123,8 @@ h1, h2, h3 {
 #menu ul {
     width: 100%;
     text-align: center;
-    margin: 0 auto;
-    margin-top: 10px;
+    /* margin: 0 auto; */
+    margin-top: 8px;
     position: relative; 
 }
 
@@ -214,7 +213,6 @@ section {
 
 section p {
     padding: 10px;
-    font-size: 14;
 }
 
 /* about us */
