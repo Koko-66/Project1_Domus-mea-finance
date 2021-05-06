@@ -90,11 +90,11 @@ h1, h2, h3 {
 }
 
 #tagline {
-    color: #262528;
-    margin-top: 100px;
-    text-align: center;
+    color: #fff9ec;
+    height: 30px;
+    padding-top: 10px;
     position: relative;
-    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
 /* _____navigation menu */
@@ -102,9 +102,10 @@ h1, h2, h3 {
 .longbar {
     background: #262528;
     color: #fff9ec;
-    height: 3em;
+    height: 2.5em;
     border-top: 2px solid #fff9ec;
     border-bottom: 2px solid #fff9ec;
+    padding-top: 2px;
     clear: both;
     margin: 0 auto;
     position: relative;
