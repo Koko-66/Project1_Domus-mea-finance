@@ -20,7 +20,6 @@
     border: 0;
 }
 
-""
 body {
     font-family: 'Nunito', sans-serif;
     font-weight: 1,100;
@@ -35,6 +34,7 @@ body {
 hr {
     border: 1px solid rgb(38, 37, 40);
     width: 30%;
+    margin-bottom: 20px;
     margin: 0 auto;
 }
 
@@ -46,6 +46,7 @@ h1, h2, h3 {
     font-size: 1.5rem;
     /* text-transform: uppercase; */
     font-variant: small-caps;
+    text-align: center;
 }
 
 .heading {
@@ -390,17 +391,19 @@ input {
     text-align: center;
 }
 
+#mortgage-img, #equity-img, #protection-img {
+    height: 250px;
+    overflow: none;
+    margin: 20px;
+}
 #mortgage-img {
     background: url("../images/precondo-ca-uJ7NOEbTd80-unsplash_800x500.jpg") no-repeat center center;
-    height: 250px;
 }
 
 #equity-img {
     background: url("../images/pexels-tima-miroshnichenko-5699397_800x500.jpg") no-repeat center center;
-    height: 250px;
 }
 
 #protection-img {
     background: url("../images/hands-protecting-a-house-picjumbo-com_800x500.jpg") no-repeat center center;
-    height: 250px;
 }
