@@ -293,15 +293,9 @@ section p {
 /* .label+input {
     line-height: 1.5em;
     padding: 5px;
-    gap: 5px; */
-}
+    gap: 5px;
+} */
 
-input {
-    border: 2px solid #262528;
-    max-width: 100%;
-    /* margin-left: 40px; */
-    position: relative;
-}
 
 #contact-us {
     margin-bottom: 40px;
@@ -322,7 +316,13 @@ form {
     /* background-color: #84333e; */
     /* border: 5px solid black; */
     clear: both;
-    margin: 0 auto;
+    padding-left: 20px;
+    margin: auto 0;
+    display: table;
+}
+ 
+form p {
+    display: table-row;
 }
 
 
@@ -341,17 +341,31 @@ label, input {
     display: inline-block;
     text-align: left;
     line-height: 2em;
+    display: table-cell;
 }
 
 
 label {
-    width: auto;
+    width: 25%;
     font-size: 1.2em;
     color: #fff9ec;
     text-align: left;
     margin: 20px;
 }
 
+input {
+    border: 2px solid #262528;
+    width: 120%;
+    /* margin-left: 40px; */
+    position: relative;
+}
+
 .center {
     text-align: center;
+}
+
+#submit-btn {
+    text-align: center;
+    text-emphasis: strong;
+
 }
