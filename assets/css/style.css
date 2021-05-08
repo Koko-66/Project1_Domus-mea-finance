@@ -328,7 +328,7 @@ section p {
 
 form {
     background-color: transparent;
-    height: 100%;
+    height: 600px;
 
     /* background-color: #84333e; */
     padding: 20px;
@@ -345,7 +345,7 @@ form > div {
 }
 
 .table-cell {
- width: 600px; 
+ width: 500px; 
 }
 
 
@@ -361,7 +361,7 @@ form > div {
 
 
 label, input {
-    display: inline-block;
+    /* display: inline-block; */
     text-align: left;
     line-height: 2em;
     display: table-cell;
@@ -373,22 +373,37 @@ label {
     color: #fff9ec;
     text-align: left;
     padding: 10px 20px 0 10px;
+    width: 25%
 }
 
 #radio-buttons label {
     font-size: 1em;
 }
 
-
+#first-time-rb {
+    width: auto;
 }
 
 input {
     /* border: 2px solid #262528; */
-    max-width: 600px;
+    /* max-width: 600px; */
     /* margin-left: 40px; */
     /* position: relative; */
     border-radius: 5px;
 }
+
+#form-details input {
+    width: 200px;
+}
+
+input:active {
+    width: auto;   
+}
+
+input:focus {
+    min-width: 200px;
+}
+
 
 .center {
     text-align: center;
