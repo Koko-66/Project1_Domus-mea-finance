@@ -11,7 +11,8 @@
 #a78f18 - yellow
 91c0b7 - blue
 #8433e - red
-#grey - rgb(168,169,172)
+#grey - rgb(168,169,172) 
+charcoal - rgba(38, 37, 40, 1)
 */
 
 * {
@@ -313,51 +314,50 @@ section p {
 
 /* contact form */
 
-/* .label+input {
-    line-height: 1.5em;
-    padding: 5px;
-    gap: 5px;
-} */
-
-
 #contact-us {
     margin-bottom: 40px;
     clear: both; 
 }
 
-/* #contact-form */
-
-
 #form-outer {
     padding: 5px;
-    background-color: #262528;
+    background: url("../images/pexels-andrew-neel-2312369-resized.jpg") no-repeat right center;
+    background-color: rgba(38, 37, 40, 1);
+    min-height: 200px;
 }
 
 form {
-    width: 40%;
+    background-color: transparent;
     height: 100%;
+
     /* background-color: #84333e; */
-    /* border: 5px solid black; */
-    clear: both;
-    padding-left: 20px;
-    margin: auto 0;
-    display: table;
+    padding: 20px;
+    /* margin: auto 0; */
+    /* display: table; */
 }
- 
-form p {
+form > div {
+    margin-bottom: 10px;
+}
+
+.table-row {
     display: table-row;
+    margin-top:
+}
+
+.table-cell {
+ width: 600px; 
 }
 
 
-#contact-image {
+/* #contact-image {
     background: url("../images/pexels-andrew-neel-2312369-resized.jpg") no-repeat right center;
     min-height: 450px;
     margin-right: 20px;
     width: 60%;
-    float: left;
+    float: left; */
     /* margin: 0 auto; */
     /* border: 5px solid white; */
-}
+/* } */
 
 
 label, input {
@@ -367,20 +367,27 @@ label, input {
     display: table-cell;
 }
 
-
 label {
-    width: 25%;
+    /* width: 25%; */
     font-size: 1.2em;
     color: #fff9ec;
     text-align: left;
-    margin: 20px;
+    padding: 10px 20px 0 10px;
+}
+
+#radio-buttons label {
+    font-size: 1em;
+}
+
+
 }
 
 input {
-    border: 2px solid #262528;
-    width: 100%;
+    /* border: 2px solid #262528; */
+    max-width: 600px;
     /* margin-left: 40px; */
-    position: relative;
+    /* position: relative; */
+    border-radius: 5px;
 }
 
 .center {

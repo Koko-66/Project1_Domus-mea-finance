@@ -31,52 +31,52 @@
         <h1>Contact Us</h1>
         <hr>
         <p>For an informal chat about the services we offer and how we can help fill in the contact form below and we will get back to you. Alternatively you can e-mail or call us using the contact details provided at the bottom of the page. We are not constrained by normal office hours so can meet or telephone when it’s convenient to you. We offer face to face appointments, video conference and telephone meetings, whichever suits you best.</p><br>
-        <div id="form-outer" class="im-row">
-            <!-- <div id="contact-form"> -->
+        <div id="form-outer"><!--class="im-row"-->
+            <div id="contact-form">
                 <form action="" method="POST">
                     <!-- <fieldset> -->
                     <div>
-                        <p>
+                        <p class="table-row">
                         <label for="name">Your Name  </label>
-                        <input type="text" name="fname" id="first-name">
+                        <input type="text" name="fname" id="first-name" class="table-cell">
                         </p>
-                        <!-- <p>
-                            <label for="lname">Last Name  </label>
-                            <input type="text" name="lname" id="last-name">
-                        </p> -->
-                        <p>
+                        <p class="table-row"> 
                             <label for="email">Your e-mail</label>
-                            <input type="email" name="email" id="email">
+                            <input type="email" name="email" id="email" class="table-cell">
                         </p>
-                        <p>
+                        <p class="table-row">
                             <label for="phone">Your phone</label>
-                            <input type="number" name="phone" id="phone">
+                            <input type="number" name="phone" id="phone" class="table-cell">
                         </p>
-                    </div>
-
-                    <div>
-                        <p>What would you like to talk to us about?</p>
                         
-                        <p><input id="first-time-rb" type="radio" name="service" value="first time">
+                    </div>
+                    <div><p><label>What brings you to our website?</label></p></div>
+                    <div id="radio-buttons"> -->
+                        
+                        <p class="table-row"><input id="first-time-rb" type="radio" name="service" value="first time">
                             <label for="first-time-rb">First-time Buyer</label></p>
-                        <p><input id="remortgage-rb" type="radio" name="service" value="remortgage">
-                            <label for="remortgage-rb">Remortgage</label></p>
-                        <p><input id="buy-to-let-rb" type="radio" name="service" value="buy to let">
+                        <p class="table-row"><input id="remortgage-rb" type="radio" name="service" value="remortgage">
+                            <label for="remortgage-rb">Remortgaging</label></p>
+                        <p class="table-row"><input id="buy-to-let-rb" type="radio" name="service" value="buy to let">
                             <label for="buy-to-let-rb">Buy to Let</label></p>
-                        <p><input id="equity-release-rb" type="radio" name="service" value="equity">
-                            <label for="equity-release-rb">Equity release</label></p>
-                        <p><input id="protection-rb" type="radio" name="service" value="protection">
-                            <label for="protection-rb">Equity release</label></p>
+                        <p class="table-row"><input id="equity-release-rb" type="radio" name="service" value="equity">
+                            <label for="equity-release-rb">Equity Release</label></p>
+                        <p class="table-row"><input id="protection-rb" type="radio" name="service" value="protection">
+                            <label for="protection-rb">Protection</label></p>
+                        <p class="table-row">
+                            <input id="other-rb" type="radio" name="services" value="other">
+                            <label for="other-rb">Something else</label>
+                            <input type="textarea" id="other" name="other">
+                        </p>
                         
                     </div>
                     <p>
                         <input type="submit" value="Submit" id="submit-btn" value="Remortgage">
-                        <!-- Add text area of radio-buttons for What are you interested in -->
                     </p>
 
                     <!-- </fieldset> -->
                 </form>
-            <!-- </div> -->
+            </div>
             <div id="contact-image"></div>
         </div>
     </section>
@@ -88,7 +88,7 @@
             89b Quicks Road<br>
             Wimbledon<br>
             SW19 4EU<br>
-            </p></div>
+            </p>
         </div>
         
     </section>
