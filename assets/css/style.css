@@ -378,9 +378,9 @@ label {
     font-size: 1em;
 }
 
-#first-time-rb {
+/* #first-time-rb {
     width: auto;
-}
+} */
 
 input {
     /* border: 2px solid #262528; */
@@ -402,6 +402,12 @@ input:focus {
     min-width: 200px;
 } */
 
+#input-other {
+    width: 300px;
+    height: 100px;
+    resize: vertical;
+    text-align: start;
+}
 
 .center {
     text-align: center;
