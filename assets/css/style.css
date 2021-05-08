@@ -330,13 +330,12 @@ form {
     height: 600px;
     /* background-color: #84333e; */
     padding: 20px;
-    margin-left: 40%;
     /* margin: auto 0; */
     /* display: table; */
 }
-form > div {
+/* form > div {
     margin-bottom: 10px;
-}
+} */
 
 .table-row {
     display: table-row;
@@ -372,7 +371,7 @@ label {
     color: #fff9ec;
     text-align: left;
     padding: 10px 20px 0 10px;
-    width: 25%
+    width: 25%;
 }
 
 #radio-buttons label {
@@ -391,17 +390,17 @@ input {
     border-radius: 5px;
 }
 
-#form-details input {
+/* #form-details input {
     width: 200px;
-}
+} */
 
-input:active {
+/* input:active {
     width: auto;   
 }
 
 input:focus {
     min-width: 200px;
-}
+} */
 
 
 .center {
@@ -427,4 +426,8 @@ input:focus {
 
 #protection-img {
     background: url("../images/hands-protecting-a-house-picjumbo-com_800x500.jpg") no-repeat center center;
+}
+
+#radio-buttons {
+    margin-left: 200px;
 }
