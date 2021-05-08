@@ -339,7 +339,6 @@ form {
 
 .table-row {
     display: table-row;
-    margin-top:
 }
 
 .table-cell {
@@ -404,8 +403,8 @@ input:focus {
 
 #input-other {
     width: 300px;
-    height: 100px;
-    resize: vertical;
+    /* height: 50px; */
+    resize: both;
     text-align: start;
 }
 
@@ -436,4 +435,12 @@ input:focus {
 
 #radio-buttons {
     margin-left: 200px;
+}
+
+#submit-btn {
+    display: block;
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+    padding: 5px 20px 5px 20px;
 }
