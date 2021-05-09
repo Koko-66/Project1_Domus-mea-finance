@@ -484,3 +484,16 @@ input:focus {
     color: #fff9ec;
     background-color: #a78f18;
 }
+
+/* media queries */
+
+@media screen and (max-width: 1200px) {
+
+.longbar {
+    width: 100%;
+}    
+.longbar a {
+    margin: 10px;
+    font-size: 18px;
+}
+}
