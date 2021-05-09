@@ -35,8 +35,8 @@ body {
 hr {
     border: 1px solid rgb(38, 37, 40);
     width: 30%;
-    margin-bottom: 20px;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 h1, h2, h3 {
@@ -50,7 +50,7 @@ h1, h2, h3 {
     text-align: center;
 }
 
-.heading {
+/* .heading {
     background: #262528;
     color: #fff9ec;
     height: 3em;
@@ -59,7 +59,7 @@ h1, h2, h3 {
     clear: both;
     margin: 0 auto;
     position: relative;
-}
+} not used */
 
 .intext-link {
     color: #a78f18;
@@ -218,7 +218,7 @@ section {
 }
 
 section p {
-    padding: 10px;
+    padding: 0 10px 0px 10px;
 }
 
 /* about us */
@@ -237,7 +237,7 @@ section p {
     width: 100%;
     float: left;
     clear: both;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     min-height: 300px;
 }
 
