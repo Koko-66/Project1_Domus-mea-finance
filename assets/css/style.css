@@ -266,11 +266,11 @@ section p {
     color: #84333e;
 }
 
-.im-outer p {
+/* .im-outer p {
      text-align: justify;
      padding: 5px;
      min-height: 110px;
- } 
+ }  */
 
  /* .im-outer > a {
      padding:5px 5px 2px 5px;
@@ -283,6 +283,11 @@ section p {
     height: 250px;
     margin-top: 10px;
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    justify-content: space-around;
+    align-items: center;
 }
 
 #service-img1 {
@@ -310,6 +315,15 @@ section p {
 
 #testimony-img3 {
     background: url("../images/pexels-william-fortunato-resized.jpg") no-repeat center center;
+}
+
+.testimony-cont {
+    background: rgba(38, 37, 40, 1);
+    color: #fff9ec;
+    font-style: italic;
+    text-align: center;
+    
+    
 }
 
 /* services */
