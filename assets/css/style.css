@@ -156,10 +156,14 @@ h1, h2, h3 {
     /* height:100px; */
 }
 
-#contact {
+#contact-large {
     display: flex;
     flex-direction: row-reverse;
     clear: both;
+}
+
+#contact-small {
+    display: none;
 }
 
  #footer-right {
@@ -502,7 +506,7 @@ input:focus {
         background: url("../images/pexels-moose-photos-1037912_resized\ for\ site.jpg") no-repeat top center;
         height: 275px;
         width: 100%;
-}
+    }
 
     #tagline {
         height: 20px;
@@ -510,11 +514,16 @@ input:focus {
         font-size: 12px;
     }
 
+    section p {
+        margin: 10px;
+        text-align: justify;
+    }
+
     .im-row {
         display: block;
         clear: both;
-
     }
+
     .im-outer {
         width: 100%;
     }
@@ -524,6 +533,25 @@ input:focus {
         text-align: justify;
         padding: 10px;
     }
-    }
     
+    #footer {
+        /* position: none; */
+        height: 120px;
+        padding: 3px;
+    }
+
+    #contact-large {
+        display: none;
+    }
+
+    #contact-small {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer-left, #footer-right, #footer-center {
+        width: 100%;
+        margin: 5px;
+    }
+
 }
