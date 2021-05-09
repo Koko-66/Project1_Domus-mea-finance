@@ -312,6 +312,25 @@ section p {
     background: url("../images/pexels-william-fortunato-resized.jpg") no-repeat center center;
 }
 
+/* services */
+
+#mortgage-img, #equity-img, #protection-img {
+    height: 250px;
+    overflow: none;
+    margin: 20px;
+}
+#mortgage-img {
+    background: url("../images/precondo-ca-uJ7NOEbTd80-unsplash_800x500.jpg") no-repeat center center;
+}
+
+#equity-img {
+    background: url("../images/pexels-tima-miroshnichenko-5699397_800x500.jpg") no-repeat center center;
+}
+
+#protection-img {
+    background: url("../images/hands-protecting-a-house-picjumbo-com_800x500.jpg") no-repeat center center;
+}
+
 /* contact form */
 
 #contact-us {
@@ -320,7 +339,7 @@ section p {
 }
 
 #form-outer {
-    background: url("../images/laptop-on-a-round-wooden-table-flat-lay-picjumbo-com_1200x800.jpg") no-repeat right center;
+    background: url("../images/laptop-on-a-round-wooden-table-flat-lay-picjumbo-com_1200x800.jpg") no-repeat center center;
     background-color: rgba(38, 37, 40, 1);
     min-height: 200px;
 }
@@ -370,7 +389,7 @@ label {
     color: #fff9ec;
     text-align: left;
     padding: 10px 20px 0 10px;
-    width: 25%;
+    /* width: 25%; */
 }
 
 #radio-buttons label {
@@ -404,6 +423,8 @@ input:focus {
 #input-other {
     width: 300px;
     /* height: 50px; */
+    color: #fff9ec;
+    font-size: 1.2em;
     resize: both;
     text-align: start;
 }
@@ -412,35 +433,22 @@ input:focus {
     text-align: center;
 }
 
-#submit-btn {
-    text-align: center;
-}
-
-#mortgage-img, #equity-img, #protection-img {
-    height: 250px;
-    overflow: none;
-    margin: 20px;
-}
-#mortgage-img {
-    background: url("../images/precondo-ca-uJ7NOEbTd80-unsplash_800x500.jpg") no-repeat center center;
-}
-
-#equity-img {
-    background: url("../images/pexels-tima-miroshnichenko-5699397_800x500.jpg") no-repeat center center;
-}
-
-#protection-img {
-    background: url("../images/hands-protecting-a-house-picjumbo-com_800x500.jpg") no-repeat center center;
-}
-
 #radio-buttons {
     margin-left: 200px;
 }
 
-#submit-btn {
+#form-btns {
     display: block;
-    float: right;
-    margin-right: 50px;
-    margin-top: 20px;
+}
+
+.form-btn {
+    margin: 10px;
     padding: 5px 20px 5px 20px;
+    font-weight: 700;
+    color: #a78f18;
+}
+
+#submit-btn:hover {
+    color: #fff9ec;
+    background-color: #a78f18;
 }
