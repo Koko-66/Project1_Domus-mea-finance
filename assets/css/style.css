@@ -78,7 +78,7 @@ h1, h2, h3 {
 }
 
 #logo {
-    background: url("https://domusmeafinance.co.uk/wp-content/uploads/2019/07/logo-60.png") no-repeat bottom right;
+    background: url("https://domusmeafinance.co.uk/wp-content/uploads/2019/07/logo-60.png") no-repeat center center;
     height: 60px;
     width: 40%;
     margin-top: 150px;
@@ -95,7 +95,6 @@ h1, h2, h3 {
     color: #fff9ec;
     height: 30px;
     padding-top: 10px;
-    position: relative;
     font-size: 16px;
 }
 
@@ -206,11 +205,11 @@ h1, h2, h3 {
     text-align: center;
 }
 
-/* ______main content */
+/* home page */
 
 section {
     padding: 20px; 
-    position: relative;
+    /* position: relative; */
     clear: both;
     /* margin-bottom: 10px; */
 }
@@ -269,16 +268,6 @@ section p {
     color: #84333e;
 }
 
-/* .im-outer p {
-     text-align: justify;
-     padding: 5px;
-     min-height: 110px;
- }  */
-
- /* .im-outer > a {
-     padding:5px 5px 2px 5px;
-     border: 1px solid #a78f18;
- } */
 
 /* services section */
 
@@ -487,29 +476,54 @@ input:focus {
 
 @media screen and (max-width: 700px) {
 
-.longbar {
-    width: 100%;
-}    
-.longbar a {
-    margin: 10px;
-    font-size: 18px;
+    .longbar {
+        width: 100%;
+    }  
+
+    .longbar a {
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    #header-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #logo {
+        background: url("https://domusmeafinance.co.uk/wp-content/uploads/2019/07/logo-60.png") no-repeat center center;
+        width: 100%;
+        margin: 0 0 5px;
+        /* margin-right: 2%; */
+    }
+
+    #hero-image {
+        background: url("../images/pexels-moose-photos-1037912_resized\ for\ site.jpg") no-repeat top center;
+        height: 275px;
+        width: 100%;
 }
 
-#header-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
+    #tagline {
+        height: 20px;
+        padding-top: 5px;
+        font-size: 12px;
+    }
 
-#logo {
-    background: url("https://domusmeafinance.co.uk/wp-content/uploads/2019/07/logo-60.png") no-repeat center center;
-    width: 100%;
-    margin: 0 0 5px;
-    /* margin-right: 2%; */
-}
+    .im-row {
+        display: block;
+        clear: both;
 
-#hero-image {
-    background: url("../images/pexels-moose-photos-1037912_resized\ for\ site.jpg") no-repeat top center;
-    height: 275px;
-    width: 100%;
+    }
+    .im-outer {
+        width: 100%;
+    }
+
+    .two-columns {
+        column-count: 1;
+        text-align: justify;
+        padding: 10px;
+    }
+    }
+    
 }
