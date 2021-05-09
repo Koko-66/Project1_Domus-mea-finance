@@ -81,7 +81,6 @@ h1, h2, h3 {
     background: url("https://domusmeafinance.co.uk/wp-content/uploads/2019/07/logo-60.png") no-repeat bottom right;
     height: 60px;
     width: 40%;
-    position: relative;
     margin-top: 150px;
     margin-right: 2%;
 }
@@ -90,7 +89,6 @@ h1, h2, h3 {
     background: url("../images/pexels-moose-photos-1037912_resized\ for\ site.jpg") no-repeat top center;
     height: 300px;
     width: 70%;
-    position: relative;
 }
 
 #tagline {
@@ -485,9 +483,9 @@ input:focus {
     background-color: #a78f18;
 }
 
-/* media queries */
+/* MEDIA QUERIES */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 700px) {
 
 .longbar {
     width: 100%;
@@ -496,4 +494,22 @@ input:focus {
     margin: 10px;
     font-size: 18px;
 }
+
+#header-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#logo {
+    background: url("https://domusmeafinance.co.uk/wp-content/uploads/2019/07/logo-60.png") no-repeat center center;
+    width: 100%;
+    margin: 0 0 5px;
+    /* margin-right: 2%; */
+}
+
+#hero-image {
+    background: url("../images/pexels-moose-photos-1037912_resized\ for\ site.jpg") no-repeat top center;
+    height: 275px;
+    width: 100%;
 }
