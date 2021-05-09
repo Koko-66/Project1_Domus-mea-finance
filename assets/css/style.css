@@ -307,6 +307,10 @@ section p {
 #service-img3 {
     background: url("../images/pexels-adrianna-calvo-17739_resized_470x330.jpg") no-repeat center center;
 }
+.divider {
+    height: 20px;
+    clear: both;
+}
 
 /* Why us - testimonies section */
 
@@ -331,8 +335,16 @@ section p {
     margin: 0;
 }
 
-/* services */
+/* Professional bodies */
 
+.pb-logos {
+    height:150px;
+    display: flex;
+    float: left;
+
+}
+
+/* services page*/
 #mortgage-img, #equity-img, #protection-img {
     height: 250px;
     overflow: none;
@@ -349,6 +361,7 @@ section p {
 #protection-img {
     background: url("../images/hands-protecting-a-house-picjumbo-com_800x500.jpg") no-repeat center center;
 }
+
 
 /* contact form */
 
