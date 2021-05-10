@@ -152,9 +152,9 @@ h4 {
 /* ______footer */
 
 #footer {
-    position: fixed;
+    position: sticky;
     bottom: 0;
-    width: 100%;
+    /* width: 100%; */
     color: rgb(182,183,186);
     height: 50px;
     padding-top: 10px;
@@ -304,10 +304,11 @@ section p {
 #service-img3 {
     background: url("../images/pexels-adrianna-calvo-17739_resized_470x330.jpg") no-repeat center center;
 }
-.divider {
-    height: 20px;
+
+/* .divider {
+    height: 40px;
     clear: both;
-}
+} */
 
 /* Why us - testimonies section */
 
@@ -494,6 +495,11 @@ input:focus {
     background-color: #a78f18;
 }
 
+#backtotop {
+    text-align: center;
+    padding: 10px;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 700px) {
@@ -570,6 +576,11 @@ input:focus {
     #footer-left, #footer-right, #footer-center {
         width: 100%;
         margin: 5px;
+    }
+
+    #backtotop {
+        margin-bottom: 140px;
+        text-align: center;
     }
 
 }
