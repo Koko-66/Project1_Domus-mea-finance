@@ -549,7 +549,7 @@ input:focus {
     }
 
     .im-outer {
-        width: 100%;
+        width: auto;
     }
 
     .two-columns {
