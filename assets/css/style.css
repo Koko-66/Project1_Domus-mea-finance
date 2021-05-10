@@ -29,7 +29,7 @@ body {
     min-height:100%;
     height:auto !important;
     margin: 0 10px 0 10px;
-    margin:0 auto -100px;
+    margin:0 auto;
 }
 
 hr {
@@ -48,6 +48,11 @@ h1, h2, h3 {
     /* text-transform: uppercase; */
     font-variant: small-caps;
     text-align: center;
+}
+
+h4 {
+    margin: 0 0 20px 0;
+    font-size: 18px;
 }
 
 /* .heading {
@@ -206,6 +211,7 @@ h1, h2, h3 {
     color: rgb(182,183,186);
     padding: 10px;
     margin-top: 5px;
+    margin: 20px;
     text-align: center;
 }
 
@@ -332,17 +338,18 @@ section p {
     height:150px;
     display: flex;
     float: left;
-
 }
 
 /* services page*/
+
 #mortgage-img, #equity-img, #protection-img {
     height: 250px;
-    overflow: none;
+    /* overflow: hidden; */
     margin: 20px;
 }
+
 #mortgage-img {
-    background: url("../images/precondo-ca-uJ7NOEbTd80-unsplash_800x500.jpg") no-repeat center center;
+    background: url("../images/pexels-pnw-production-7327984_800x500.jpg") no-repeat center center;
 }
 
 #equity-img {
@@ -353,6 +360,17 @@ section p {
     background: url("../images/hands-protecting-a-house-picjumbo-com_800x500.jpg") no-repeat center center;
 }
 
+#mortgages ul, #protection ul {
+    margin-left: 40px;
+}
+
+#protection li {
+    padding: 0 0 5px 0;
+}
+
+li::marker {
+    color: #a78f18;
+}
 
 /* contact form */
 
