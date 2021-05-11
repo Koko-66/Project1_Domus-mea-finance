@@ -366,7 +366,7 @@ li::marker {
 }
 
 /* contact form */
-/* 
+/*
 #contact-us {
     margin-bottom: 40px;
     clear: both; 
@@ -399,7 +399,6 @@ form {
 .table-cell {
  width: 500px; 
 }
-
 
 label, input {
     /* display: inline-block; */
@@ -447,6 +446,10 @@ input[type="radio"] {
     margin: 0;
 }
 
+#reset-btn:hover, #submit-btn:hover {
+    color: #fff9ec;
+    background-color: #a78f18;
+}
 /* #form-details input {
     width: 200px;
 } */
