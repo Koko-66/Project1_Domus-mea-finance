@@ -376,6 +376,8 @@ li::marker {
     background: url("../images/laptop-on-a-round-wooden-table-flat-lay-picjumbo-com_1200x800.jpg") no-repeat center center;
     background-color: rgba(38, 37, 40, 1);
     min-height: 200px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 form {
@@ -428,7 +430,7 @@ input {
 input[type="radio"] {
     position: absolute;
     vertical-align: middle;
-    margin-top: 5px;
+    margin-top: 20px;
     /* opacity: 0; */
     /* cursor: pointer; */
 }
@@ -605,6 +607,10 @@ input:focus {
         font-size: 1.1em;
     }
 
+    input[type="radio"] {
+        margin-top: 5px;
+    }
+
     #radio-buttons {
         margin-left: 20px;
     }
@@ -619,3 +625,11 @@ input:focus {
         margin-top: 20px;
     }
 }
+
+/* @media screen and (max-width: 1200px) {
+
+    #form-outer {
+        max-width: 1200px;
+        margin: auto 0;
+    }
+} */

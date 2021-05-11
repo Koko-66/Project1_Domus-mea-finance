@@ -1,6 +1,6 @@
 # Domus Mea Finance site
 Domus Mea Finance is still in the process of building their brand name and online presence. 
-Setting up a new website is an important step for the company - it will serve as the face of the business, reflecting the company's professional approach and reaching new clients to increase rates of new business as well as engage existing clients.
+Setting up a new website is an important step for the company - it will serve as the face of the business, showcasing the company's competence and professionalism. It is aimed at attracting new business and 
 <!--The website aims not only to provide information about the company and its services, but with time also eventually contain a section providing links to the information about new legislation and regulation as well as tips section.-->
 
 <!--(One or two paragraphs providing an overview of your project.
@@ -63,6 +63,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 Photos from: ...
+
+Contact form radio buttons: https://stackoverflow.com/questions/48561970/css-style-radio-button-with-label-next-to-it
 
 ### Content
 The text for individual pages was provided in full by Domus Mea Finance owner. 
