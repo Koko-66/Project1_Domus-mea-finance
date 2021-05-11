@@ -366,11 +366,11 @@ li::marker {
 }
 
 /* contact form */
-
+/* 
 #contact-us {
     margin-bottom: 40px;
     clear: both; 
-}
+} */
 
 #form-outer {
     background: url("../images/laptop-on-a-round-wooden-table-flat-lay-picjumbo-com_1200x800.jpg") no-repeat center center;
@@ -380,7 +380,7 @@ li::marker {
 
 form {
     background-color: rgba(38, 37, 40, 0.8);
-    height: 600px;
+    height:;
     /* background-color: #84333e; */
     padding: 20px;
     /* margin: auto 0; */
@@ -399,17 +399,6 @@ form {
 }
 
 
-/* #contact-image {
-    background: url("../images/pexels-andrew-neel-2312369-resized.jpg") no-repeat right center;
-    min-height: 450px;
-    margin-right: 20px;
-    width: 60%;
-    float: left; */
-    /* margin: 0 auto; */
-    /* border: 5px solid white; */
-/* } */
-
-
 label, input {
     /* display: inline-block; */
     text-align: left;
@@ -423,16 +412,9 @@ label {
     color: #fff9ec;
     text-align: left;
     padding: 10px 20px 0 10px;
+    cursor: pointer;
     /* width: 25%; */
 }
-
-#radio-buttons label {
-    font-size: 1em;
-}
-
-/* #first-time-rb {
-    width: auto;
-} */
 
 input {
     /* border: 2px solid #262528; */
@@ -440,7 +422,25 @@ input {
     /* margin-left: 40px; */
     /* position: relative; */
     border-radius: 5px;
+    cursor: pointer;
 }
+
+input[type="radio"] {
+    position: absolute;
+    vertical-align: middle;
+    margin-top: 5px;
+    /* opacity: 0; */
+    /* cursor: pointer; */
+}
+
+#radio-buttons label {
+    font-size: 1em;
+    position: relative;
+    cursor: pointer;
+    padding-left: 30px;
+    display: inline-block;
+}
+
 
 /* #form-details input {
     width: 200px;
@@ -496,12 +496,14 @@ input:focus {
 
 @media screen and (max-width: 700px) {
 
+    /* Header and menu */
+
     .longbar {
         width: 100%;
     }  
 
     .longbar a {
-        margin: 10px;
+        margin: 5px;
         font-size: 18px;
     }
 
@@ -524,11 +526,40 @@ input:focus {
         width: 100%;
     }
 
+
     #tagline {
         height: 20px;
         padding-top: 5px;
         font-size: 12px;
     }
+
+    /* Footer */
+
+    #footer {
+        height: 100px;
+        padding: 3px;
+    }
+
+    #contact-large {
+        display: none;
+    }
+
+    #contact-small {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer-left, #footer-right, #footer-center {
+        width: 100%;
+        margin: 2px;
+        font-size: 14px;
+    }
+
+    #social-links a {
+        margin: 5px;
+    }
+
+    /* Overal page content */
 
     section p {
         margin: 10px;
@@ -549,29 +580,38 @@ input:focus {
         text-align: justify;
         padding: 10px;
     }
-    
-    #footer {
-        /* position: none; */
-        height: 120px;
-        padding: 3px;
-    }
-
-    #contact-large {
-        display: none;
-    }
-
-    #contact-small {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #footer-left, #footer-right, #footer-center {
-        width: 100%;
-        margin: 5px;
-    }
 
     #mortgages ul, #protection ul {
         margin-left: 10px;
     }
 
+    /* Contact Form */
+
+    .table-row {
+        display: block;
+        /* flex-direction: column; */
+    }
+
+    .table-cell {
+        width: 100%;
+    }
+
+    label {
+        padding: 0 10px 0 0;
+        line-height: 1.7em;
+        font-size: 1.1em;
+    }
+
+    #radio-buttons {
+        margin-left: 20px;
+    }
+/* 
+    #radio-buttons p {
+        display: table-row;
+        margin-left: 10px;
+
+    } */
+
+    #form-btns {
+        margin-top: 20px;
 }
