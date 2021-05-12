@@ -65,6 +65,11 @@ In addition, if it is not obvious, you should also describe how to run your code
 Photos from: ...
 
 Contact form radio buttons: https://stackoverflow.com/questions/48561970/css-style-radio-button-with-label-next-to-it
+http://ianlunn.github.io/Hover/
+
+https://tympanus.net/Tutorials/CSS3ImageAccordion/
+
+https://code-boxx.com/vertical-text-css/
 
 ### Content
 The text for individual pages was provided in full by Domus Mea Finance owner. 
