@@ -1,18 +1,37 @@
 # Domus Mea Finance site
 Domus Mea Finance is still in the process of building their brand name and online presence. 
-Setting up a new website is an important step for the company - it will serve as the face of the business, showcasing the company's competence and professionalism. It is aimed at attracting new business and 
-<!--The website aims not only to provide information about the company and its services, but with time also eventually contain a section providing links to the information about new legislation and regulation as well as tips section.-->
-
+Setting up a new website is an important step for the company - it will serve as the face of the business, showcasing the company's competence and professionalism and, of course, facilitate contact between new clients and the company. 
 <!--(One or two paragraphs providing an overview of your project.
 Essentially, this part is your sales pitch.)-->
 
 ## UX
-As a first-time user (i.e. a potential customer) I want to easily understand the purpose of the site and nature of the company's business. I want to read about the services the company provides and be able to easily locate the contact information to schedule a call/meeting to discuss my needs in greater detail.
-As a returning visitor, I want to feel reassured that Domus Mea Finance is the company I want to engage with for the provision of services by reading thorugh testimonials and reviewing affiliation certificates.
+
+As the site user I can easily understand the purpose of the site and the nature of the business.
+    This is achieved by: 
+        - relevant imagery, tag line in the header;
+        - services overview placed right under the header of the Home Page.
+
+As a user I can easily find information about the various services the company offers and focus on those relevant to me.
+    This is achieved by:
+        - links from services overview in the Home Page to specific sections in the Services page; 
+        - minimalisation of scrolling through the use of accordion on Services page and Back to top links.
+        <!-- Add more links in the middle of pages? -->
+
+As a user I can easily locate contact information at any point in my journey. I can get in touch with the company in several different ways, including phone, e-mail and contact form, whichever suits me best. 
+    This is achived by implementation of: 
+        - sticky footer to show contact info at all times;
+        - separate Contact Us page with contact form and the company address.
+
+As a user I want to have the same experience and ease of navigation on mobile devices and desktop: 
+    This is achived by: 
+        - implementation of different header design for laptops/tablets and mobiles;
+        - resising and adjusting the laout of images/text to better fit mobiles.
+        
+        
 
 
 Links to wireframes (in pdf)
-
+Screenshots of the site. 
 
 <!--(Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
@@ -20,6 +39,11 @@ In particular, as part of this section we recommend that you provide a list of U
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.)-->
 
 ## Features
+
+The site features: 
+Home Page: with overview of the services, the company and recommendations 
+Services Page: containg more details about each service and their types
+Contact Page: a Cotact From <!--(linked to what?)-->
 <!--In this section, you should go over the different parts of your project, and describe each in a sentence or so.()-->
 
 ### Existing Features

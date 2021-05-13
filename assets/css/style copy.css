@@ -224,6 +224,10 @@ section p {
     text-align: justify;
     column-gap: 20px;
     padding: 10px;
+    width: 80%;
+    margin: auto;
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 8%);
+    border: 7px solid rgb(168,169,172,0.2);
 }
 
 .two-columns p {
@@ -314,6 +318,10 @@ section p {
 
 /* accordion styling */
 
+#serv-container-small {
+    display: none;
+}
+
 .serv-container {
     width: 800px;
     margin: 20px auto;
@@ -324,8 +332,8 @@ section p {
 
 .serv-container div {
     display: flex; 
-    background-color: rgba(38, 37, 40, 1);
-    color: #fff9ec;
+    color: rgb(38, 37, 40);
+    background-color: white;
     position: absolute;
     padding: 10px;
     height: 500px;
@@ -349,6 +357,7 @@ section p {
     /* display: inline-block; */
     writing-mode: vertical-lr;
     transform: rotate(180deg);
+    margin: 0;
 }
 
 .acordion-p {
@@ -366,6 +375,7 @@ section p {
     width: 5px;
     left: auto;
     right: 0px;
+    
 }
 
 .serv-container input {
@@ -377,7 +387,7 @@ section p {
     cursor: pointer;
     border: 0;
     padding: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; */
     filter: alpha(opacity=0);
     opacity: 0;
     z-index: 100;
@@ -402,17 +412,8 @@ section p {
     left: 460px;
 }
 
-
-@media screen and (max-width: 520px){
-.serv-container {
-    width: 320px;
-}
-}
-
-@media screen and (max-width: 720px) {
-.serv-container {
-    width: 540px;
-}
+div#ft-buyers {
+    margin-left: -12px;
 }
 
 #mortgage-img, #equity-img, #protection-img {
@@ -447,9 +448,7 @@ li::marker {
 
 #mortgages h4 {
     text-align: center;
-    /* width: 90%;
-    float: right; */
-    padding-right: 10px;
+    /* padding-right: 10px; */
     margin-bottom: 10px;
 
 }
@@ -575,6 +574,26 @@ input[type="radio"] {
 
 /* MEDIA QUERIES */
 
+@media screen and (max-width: 800px) {
+
+    .serv-container {
+        width: 700px;
+    }
+
+    .serv-container div {
+        left: 60px;
+        width: 400px;
+    }
+
+    .serv-container input:checked ~ div {
+        left: 400px;
+    }
+
+    .serv-container p {
+        width: 300px;
+    }
+}
+
 @media screen and (max-width: 700px) {
 
     /* Header and menu */
@@ -667,7 +686,12 @@ input[type="radio"] {
         column-count: 1;
     }
 
+    /* .serv-container {
+        width: 540px;
+    } */
+
     /* Contact Form */
+
 
     .table-row {
         display: block;
@@ -703,3 +727,74 @@ input[type="radio"] {
     }
 }
 
+@media screen and (max-width: 520px){
+
+    #serv-container-small {
+        display: block;
+    }
+    
+    #serv-container-large {
+        display: none;
+    }
+
+    .serv-container {
+        width: 100%;
+        margin: 0; 
+        box-shadow: 1px 1px 4px rgb(0 0 0 / 8%);
+        border: 3px solid rgb(168,169,172,0.2);
+    }
+
+    .serv-container div {
+        display: block;
+        height: auto;
+        width: auto;
+        background-color: rgba(168,169,172, 0.5) ;
+    }
+
+    .acordion-h {
+        writing-mode: unset;
+        transform: rotate(0deg);
+        font-size: 18px;
+        /* text-decoration: underline; */
+        /* width: 150px; */
+        margin: auto 0;
+    }
+    
+    .acordion-p {
+        display: none;
+       text-align: center;
+       vertical-align: middle;
+       width: auto;
+       margin: 5px;
+       font-size: 14px;
+    }
+
+    .accordion-p:checked {
+        display: block;
+    }
+
+    .serv-container input:checked {
+        width: 100%;
+        /* left: auto;
+        right: 0px; */
+    }
+
+    .serv-container input[type="checkbox"]+ input[type="radio"] {
+        box-sizing: border-box;
+        padding: 0;
+        *height: 13px;
+        *width: 13px;
+    }
+    
+    .serv-container input:checked ~ p {
+        display: block;
+        /* -webkit-transition: all 0.7s ease-in-out;
+        -moz-transition: all 0.7s ease-in-out;
+        -o-transition: all 0.7s ease-in-out;
+        -ms-transition: all 0.7s ease-in-out;
+        transition: all 0.7s ease-in-out;
+        left: 0px; */
+    }
+    
+
+}
