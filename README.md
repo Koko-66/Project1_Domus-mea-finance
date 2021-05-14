@@ -58,6 +58,30 @@ In addition, you may also use this section to discuss plans for additional featu
 HTML and CSS
 
 ## Testing
+### 1st validations: 
+#### CSS 
+
+##### ERRORS:
+26	body	Value Error : font-weight Too many values or values are not recognized : 1,100  - removed
+186	#social-links	Value Error : float center is not a float value : center     - removed
+530 .hvr-fade	#a78f18 is not a transition-property value : #a78f18,#fff9ec    - fixed
+
+##### WARNINGS: 
+344		-webkit-transition is an unknown vendor extension
+345		-moz-transition is an unknown vendor extension
+346		-o-transition is an unknown vendor extension
+347		-ms-transition is an unknown vendor extension
+391		alpha(opacity=0) is an unknown vendor extension
+394		-webkit-appearance is an unknown vendor extension
+395		-moz-appearance is an unknown vendor extension
+402		*height is a CSS hack                                   - removed
+403		*width is a CSS hack                                    - removed
+407		-webkit-transition is an unknown vendor extension
+408		-moz-transition is an unknown vendor extension
+409		-o-transition is an unknown vendor extension
+410		-ms-transition is an unknown vendor extension
+URI : https://koko-66.github.io/Project1_Domus-mea-finance/
+8		You should add a type attribute with a value of text/css to the link element - added
 
 
 <!--In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
