@@ -15,7 +15,6 @@ As a user I can easily find information about the various services the company o
     This is achieved by:
         - links from services overview in the Home Page to specific sections in the Services page; 
         - minimalisation of scrolling through the use of accordion on Services page and Back to top links.
-        <!-- Add more links in the middle of pages? -->
 
 As a user I can easily locate contact information at any point in my journey. I can get in touch with the company in several different ways, including phone, e-mail and contact form, whichever suits me best. 
     This is achived by implementation of: 
@@ -26,9 +25,6 @@ As a user I want to have the same experience and ease of navigation on mobile de
     This is achived by: 
         - implementation of different header design for laptops/tablets and mobiles;
         - resising and adjusting the laout of images/text to better fit mobiles.
-        
-        
-
 
 Links to wireframes (in pdf)
 Screenshots of the site. 
@@ -49,22 +45,21 @@ Contact Page: a Cotact From <!--(linked to what?)-->
 ### Existing Features
 - Links to social media sites - to allow users review recommendations and the company's social media presence
 - Contact Form - if preferred, users can submit their contact details and query instead of contacting the company via email directly to avoid being blocked by spam filters
+- Services associated with different kind of mortgages presented as accordion
 
 <!--For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:-->
 
 ### Features Left to Implement
-- Recommendation Form - to allow users upload recommendation 
 - Industry news section or blog
+- 
 
 ## Technologies Used
-HTML, CSS
-
-<!--In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-- [JQuery](https://jquery.com)
-- The project uses **JQuery** to simplify DOM manipulation.-->
+HTML and CSS
 
 ## Testing
+
+
 <!--In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
@@ -91,9 +86,9 @@ Photos from: ...
 Contact form radio buttons: https://stackoverflow.com/questions/48561970/css-style-radio-button-with-label-next-to-it
 http://ianlunn.github.io/Hover/
 
-https://tympanus.net/Tutorials/CSS3ImageAccordion/
+Thanks to https://webdesignerhut.com/pure-css-accordion-using-radio-buttons/ and https://tympanus.net/Tutorials/CSS3ImageAccordion/ for the inspiration and parts of code for the accordion sections on the Services page 
 
-https://code-boxx.com/vertical-text-css/
+As well as to Stackoverflow community and code-boxx for various hints and tips. 
 
 ### Content
 The text for individual pages was provided in full by Domus Mea Finance owner. 

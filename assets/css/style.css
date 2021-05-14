@@ -224,6 +224,10 @@ section p {
     text-align: justify;
     column-gap: 20px;
     padding: 10px;
+    width: 80%;
+    margin: auto;
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 8%);
+    border: 7px solid rgb(168,169,172,0.2);
 }
 
 .two-columns p {
@@ -310,16 +314,116 @@ section p {
     float: left;
 }
 
-/* services page*/
+/* _______services page*/
+
+/* accordion styling */
+
+#serv-container-small {
+    display: none;
+}
+
+.serv-container {
+    width: 800px;
+    margin: 20px auto;
+    overflow: hidden;
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 8%);
+    border: 7px solid rgb(168,169,172,0.2);
+}
+
+.serv-container div {
+    display: flex; 
+    color: rgb(38, 37, 40);
+    background-color: white;
+    position: absolute;
+    padding: 10px;
+    height: 500px;
+    top: 0px;
+    left: 70px;
+    width: 460px; 
+    box-shadow: 0 0 0 1px rgb(255 255 255 / 60%);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.serv-container > div {
+    position: relative;
+    left: 0 !important;
+}
+
+.accordion-h {
+    /* display: inline-block; */
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin: 0;
+}
+
+.accordion-p {
+   text-align: center;
+   vertical-align: middle;
+   width: 350px;
+   margin: auto;
+}
+/* .serv-container p {
+    display: block;
+    width:100%;
+} */
+
+.serv-container input:checked {
+    width: 5px;
+    left: auto;
+    right: 0px;
+    
+}
+
+.serv-container input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; */
+    filter: alpha(opacity=0);
+    opacity: 0;
+    z-index: 100;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.serv-container + input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+    *height: 13px;
+    *width: 13px;
+}
+
+.serv-container input:checked ~ div {
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+    left: 460px;
+}
+
+#ft-buyers > div {
+    margin-left: 8px;
+}
 
 #mortgage-img, #equity-img, #protection-img {
     height: 250px;
     margin: 20px;
 }
 
-#mortgage-img {
+/* #ft-buyers {
     background: url("../images/pexels-pnw-production-7327984_800x500.jpg") no-repeat center center;
-}
+} */
 
 #equity-img {
     background: url("../images/pexels-tima-miroshnichenko-5699397_800x500.jpg") no-repeat center center;
@@ -344,9 +448,7 @@ li::marker {
 
 #mortgages h4 {
     text-align: center;
-    /* width: 90%;
-    float: right; */
-    padding-right: 10px;
+    /* padding-right: 10px; */
     margin-bottom: 10px;
 
 }
@@ -472,6 +574,26 @@ input[type="radio"] {
 
 /* MEDIA QUERIES */
 
+@media screen and (max-width: 800px) {
+
+    .serv-container {
+        width: 700px;
+    }
+
+    .serv-container div {
+        left: 60px;
+        width: 400px;
+    }
+
+    .serv-container input:checked ~ div {
+        left: 400px;
+    }
+
+    .accordion-p {
+        width: 300px;
+    }
+}
+
 @media screen and (max-width: 700px) {
 
     /* Header and menu */
@@ -564,7 +686,12 @@ input[type="radio"] {
         column-count: 1;
     }
 
+    /* .serv-container {
+        width: 540px;
+    } */
+
     /* Contact Form */
+
 
     .table-row {
         display: block;
@@ -600,3 +727,77 @@ input[type="radio"] {
     }
 }
 
+@media screen and (max-width: 520px){
+
+    #serv-container-small {
+        display: block;
+    }
+    
+    #serv-container-large {
+        display: none;
+    }
+
+    .serv-container-sm {
+        width: 100%;
+        margin: 0; 
+        box-shadow: 1px 1px 4px rgb(0 0 0 / 8%);
+        border: 3px solid rgb(168,169,172,0.2);
+    }
+
+    .serv-container-sm div {
+        display: block;
+        height: auto;
+        width: auto;
+        /* background-color: rgba(168,169,172, 0.5) ; */
+    }
+    .serv-container-sm label {
+        display:block;
+        cursor: pointer;
+        padding: 5px;
+        }   
+    
+    h4 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .accordion-p {
+        width: auto;
+        text-align: justify;
+        padding: 10px 5px;
+    }
+
+    /* .accordion-h {
+        writing-mode: unset;
+        transform: rotate(0deg);
+        font-size: 18px; */
+        /* text-decoration: underline; */
+        /* width: 150px; */
+        /* margin: auto 0;
+    } */
+
+    
+    .serv-container-sm label + input[type='radio'] {
+        display: none;
+    }   
+
+
+    #serv-container-small .accordion-p {
+        display:none;
+        /* padding:10px; */
+        margin: auto;
+    }
+
+/* Show content boxes when the radio buttons are checked */
+    #serv-container-small label + input[type='radio']:checked + .accordion-p {
+        display: block;
+        width: auto;
+        text-align: justify;
+        padding: 10px 5px;
+    }
+
+
+
+   
+}
