@@ -234,11 +234,19 @@ section p {
 }
 
 .two-columns strong {
-    text-decoration: underline;
-    text-decoration-color: rgba(167, 143, 24);
-    text-decoration-style: double;
+    background-color: rgba(167, 143, 24, 0.3);
+    /* text-decoration: underline; */
+    /* text-decoration-color: rgba(167, 143, 24); */
+    /* text-decoration-style: double; */
 }
 
+#prot-d1 {
+    width: 40%;
+}
+
+#prot-d2 {
+    width: 60%;
+}
 /* .two-columns p {
     margin: 0;
     text-align: justify;
