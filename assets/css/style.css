@@ -247,12 +247,6 @@ section p {
 #prot-d2 {
     width: 60%;
 }
-/* .two-columns p {
-    margin: 0;
-    text-align: justify;
-} */
-
-/* sections with three images */
 
 .im-row {
     display: flex;
@@ -325,10 +319,8 @@ section p {
 
 /* Professional bodies */
 
-.pb-logos {
-    height:150px;
-    display: flex;
-    float: left;
+#logos {
+    margin-left: 20px;
 }
 
 /* _______services page*/
@@ -722,9 +714,14 @@ input[type="radio"] {
     }
 
     .two-columns {
+        display: block;
         column-count: 1;
         text-align: justify;
         padding: 10px;
+    }
+
+    .two-columns div, #prot-d1, #prot-d2 {
+        width: 100%;
     }
 
     #mortgages ul, #protection ul {
@@ -764,6 +761,10 @@ input[type="radio"] {
 }
 
 @media screen and (max-width: 520px) {
+
+    #affiliations {
+        display: none;
+    }
 
     #serv-container-small {
         display: block;
