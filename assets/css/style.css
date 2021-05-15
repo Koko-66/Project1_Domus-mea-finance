@@ -347,13 +347,18 @@ section p {
     left: 0 !important;
 }
 
-.serv-container h4, .serv-container-sm h4 {
-    width: 100%;
-    margin: 0;
+
+#mortgages label {
     padding: 0;
+    margin: 0;
     height: 100%;
     text-align: center;
     line-height: 1.7em;
+    font-size: 18px;
+    color: rgb(38, 37, 40);
+    /* margin: 0 20px 0 20px; */
+    text-decoration: none;
+    background-color: rgba(167, 143, 24, 0.5);
 }
  
 
@@ -387,7 +392,7 @@ section p {
 }
 
 #acc-1 {
-    margin-left: -6px;
+    margin-left: 6px;
 }
 
 /* accordion styling - small */
@@ -738,7 +743,7 @@ input[type="radio"] {
     }
 }
 
-@media screen and (max-width: 520px){
+@media screen and (max-width: 520px) {
 
     #serv-container-small {
         display: block;
@@ -752,5 +757,9 @@ input[type="radio"] {
         width: auto;
         text-align: justify;
         padding: 10px 5px;
+    }
+
+    #mortgages label {
+        margin: 10px;
     }
 }
