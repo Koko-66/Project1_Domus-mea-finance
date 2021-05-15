@@ -3,6 +3,7 @@ Domus Mea Finance is still in the process of building their brand name and onlin
 Setting up a new website is an important step for the company - it will serve as the face of the business, showcasing the company's competence and professionalism and, of course, facilitate contact between new clients and the company. 
 <!--(One or two paragraphs providing an overview of your project.
 Essentially, this part is your sales pitch.)-->
+<!-- Deployed at: https://koko-66.github.io/Project1_Domus-mea-finance/ -->
 
 ## UX
 
@@ -26,8 +27,8 @@ As a user I want to have the same experience and ease of navigation on mobile de
         - implementation of different header design for laptops/tablets and mobiles;
         - resising and adjusting the laout of images/text to better fit mobiles.
 
-Links to wireframes (in pdf)
-Screenshots of the site. 
+<!-- Links to wireframes (in pdf) -->
+<!-- Screenshots of the site.  -->
 
 <!--(Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
@@ -36,7 +37,6 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ## Features
 
-The site features: 
 Home Page: with overview of the services, the company and recommendations 
 Services Page: containg more details about each service and their types
 Contact Page: a Cotact From <!--(linked to what?)-->
@@ -58,7 +58,11 @@ In addition, you may also use this section to discuss plans for additional featu
 HTML and CSS
 
 ## Testing
-### 1st validations: 
+
+- CSS and HTML validations using W3 sites
+- Tested for responsiveness and display on various devices: Android, Samsung browser iOS, Safari, Chrome, Firefox, 
+
+<!-- ### 1st validations: 
 #### CSS 
 
 ##### ERRORS:
@@ -88,7 +92,7 @@ URI : https://koko-66.github.io/Project1_Domus-mea-finance/
 ##### ERRORS
 <!DOCTYPE html> missing  - added
 At line 28 Duplicated class attribute  - removed
-Duplilcated ids for footer-left, footer-center, footer-right and social-links - changed to classes
+Duplilcated ids for footer-left, footer-center, footer-right and social-links - changed to classes -->
 
 
 

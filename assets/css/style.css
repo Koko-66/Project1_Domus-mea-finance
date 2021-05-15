@@ -159,14 +159,14 @@ h4 {
     display: none;
 }
 
- .footer-right {
+.footer-right {
      width: 33%;
      float: right;
      text-align: center;
      margin: 0 auto;
  }
 
- .footer-left {
+.footer-left {
     width: 33%;
     float: left;
     text-align: center;
@@ -314,11 +314,7 @@ section p {
 
 /* _______services page*/
 
-/* accordion styling */
-
-#serv-container-small {
-    display: none;
-}
+/* accordion styling - large */
 
 .serv-container {
     width: 800px;
@@ -339,10 +335,10 @@ section p {
     left: 70px;
     width: 460px; 
     box-shadow: 0 0 0 1px rgb(255 255 255 / 60%);
-    -webkit-transition: all 0.3s ease-in-out;
+    /* -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out; */
     transition: all 0.3s ease-in-out;
 }
 
@@ -351,11 +347,22 @@ section p {
     left: 0 !important;
 }
 
+.serv-container h4, .serv-container-sm h4 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    line-height: 1.7em;
+}
+ 
+
 .accordion-h {
     /* display: inline-block; */
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     margin: 0;
+    height: auto;
 }
 
 .accordion-p {
@@ -364,53 +371,69 @@ section p {
    width: 350px;
    margin: auto;
 }
-/* .serv-container p {
-    display: block;
-    width:100%;
-} */
 
-.serv-container input:checked {
-    width: 5px;
-    left: auto;
-    right: 0px;
-    
+.serv-container input, .serv-container-sm input {
+    display: none;
 }
 
-.serv-container input {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50px;
-    height: 100%;
-    cursor: pointer;
-    border: 0;
-    padding: 0;
-    /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; */
-    filter: alpha(opacity=0);
-    opacity: 0;
-    z-index: 100;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-}
-
-.serv-container + input[type="radio"] {
-    box-sizing: border-box;
-    padding: 0;
-}
 
 .serv-container input:checked ~ div {
-    -webkit-transition: all 0.7s ease-in-out;
+    /* -webkit-transition: all 0.7s ease-in-out;
     -moz-transition: all 0.7s ease-in-out;
     -o-transition: all 0.7s ease-in-out;
-    -ms-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out; */
     transition: all 0.7s ease-in-out;
     left: 460px;
 }
 
-#ft-buyers > div {
-    margin-left: 8px;
+#acc-1 {
+    margin-left: -6px;
 }
+
+/* accordion styling - small */
+
+#serv-container-small {
+    display: none;
+}
+
+.serv-container-sm {
+    width: 100%;
+    margin: 0; 
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 8%);
+    border: 3px solid rgb(168,169,172,0.2);
+}
+
+.serv-container-sm div {
+    display: block;
+    height: auto;
+    width: auto;
+}
+
+.serv-container-sm label {
+    display: block;
+    cursor: pointer;
+    padding: 5px;
+    } 
+
+/* .serv-container-sm label + input[type='radio'] {
+    display: none;
+}    */
+
+
+#serv-container-small .accordion-p {
+    display:none;
+    /* padding:10px; */
+    margin: auto;
+}
+
+/* Show content boxes when the radio buttons are checked */
+#serv-container-small label + input[type='radio']:checked + .accordion-p {
+    display: block;
+    width: auto;
+    text-align: justify;
+    padding: 10px 5px;
+}
+
 
 #mortgage-img, #equity-img, #protection-img {
     height: 250px;
@@ -442,12 +465,12 @@ li::marker {
     color: #a78f18;
 }
 
-#mortgages h4 {
-    text-align: center;
+/* #mortgages h4 { */
+    /* text-align: center; */
     /* padding-right: 10px; */
-    margin-bottom: 10px;
+    /* margin-bottom: 10px;
 
-}
+} */
 
 /* contact form */
 
@@ -684,10 +707,6 @@ input[type="radio"] {
         column-count: 1;
     }
 
-    /* .serv-container {
-        width: 540px;
-    } */
-
     /* Contact Form */
 
 
@@ -713,12 +732,6 @@ input[type="radio"] {
     #radio-buttons {
         margin-left: 20px;
     }
-/* 
-    #radio-buttons p {
-        display: table-row;
-        margin-left: 10px;
-
-    } */
 
     #form-btns {
         margin-top: 20px;
@@ -735,67 +748,9 @@ input[type="radio"] {
         display: none;
     }
 
-    .serv-container-sm {
-        width: 100%;
-        margin: 0; 
-        box-shadow: 1px 1px 4px rgb(0 0 0 / 8%);
-        border: 3px solid rgb(168,169,172,0.2);
-    }
-
-    .serv-container-sm div {
-        display: block;
-        height: auto;
-        width: auto;
-        /* background-color: rgba(168,169,172, 0.5) ; */
-    }
-    .serv-container-sm label {
-        display:block;
-        cursor: pointer;
-        padding: 5px;
-        }   
-    
-    h4 {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
     .accordion-p {
         width: auto;
         text-align: justify;
         padding: 10px 5px;
     }
-
-    /* .accordion-h {
-        writing-mode: unset;
-        transform: rotate(0deg);
-        font-size: 18px; */
-        /* text-decoration: underline; */
-        /* width: 150px; */
-        /* margin: auto 0;
-    } */
-
-    
-    .serv-container-sm label + input[type='radio'] {
-        display: none;
-    }   
-
-
-    #serv-container-small .accordion-p {
-        display:none;
-        /* padding:10px; */
-        margin: auto;
-    }
-
-/* Show content boxes when the radio buttons are checked */
-    #serv-container-small label + input[type='radio']:checked + .accordion-p {
-        display: block;
-        width: auto;
-        text-align: justify;
-        padding: 10px 5px;
-    }
-
-
-
-   
 }
