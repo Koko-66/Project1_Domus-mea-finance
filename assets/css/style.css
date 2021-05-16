@@ -227,7 +227,7 @@ section p {
     align-items: center;
     text-align: justify;
     /* gap: 20px; */
-    padding: 10px;
+    /* padding: 10px; */
     width: 80%;
     margin: auto;
     box-shadow: 1px 1px 4px rgb(0 0 0 / 8%);
@@ -239,7 +239,7 @@ section p {
     padding: 10px;
 }
 
-.two-columns strong {
+.two-columns span {
     background-color: rgba(167, 143, 24, 0.3);
     /* text-decoration: underline; */
     /* text-decoration-color: rgba(167, 143, 24); */
@@ -716,7 +716,7 @@ input[type="radio"] {
     .two-columns div,
     #prot-d1,
     #prot-d2 {
-        width: 100%;
+        width: auto;
     }
     #mortgages ul,
     #protection ul {

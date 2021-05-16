@@ -77,7 +77,7 @@ In addition, you may also use this section to discuss plans for additional featu
 - Hover.css: for styling Contact From submit buttons
 - Affinity Designer: to resize and adjust the images for the website
 - Balsamiq: to create wireframes
-- Lighthouse extension
+- Lighthouse extension: used to check the performance and accessibility of the website 
 
 
 ## Testing
