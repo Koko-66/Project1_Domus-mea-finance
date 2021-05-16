@@ -1,34 +1,29 @@
 # Domus Mea Finance site
 Domus Mea Finance is still in the process of building their brand name and online presence. 
 Setting up a new website is an important step for the company - it will serve as the face of the business, showcasing the company's competence and professionalism and, of course, facilitate contact between new clients and the company. 
+
 <!--(One or two paragraphs providing an overview of your project.
 Essentially, this part is your sales pitch.)-->
+
+<!-- ## Deployed at -->
 <!-- Deployed at: https://koko-66.github.io/Project1_Domus-mea-finance/ -->
 
 ## UX
 
-As the site user I can easily understand the purpose of the site and the nature of the business.
-    This is achieved by: 
-        - relevant imagery, tag line in the header;
-        - services overview placed right under the header of the Home Page.
+### User Stories
+1. As the site user I can easily understand the purpose of the site and the nature of the business.
+2. As a user I can easily find information about the various services the company offers and focus on those relevant to me.
+3. As a user I can easily locate contact information at any point in my journey. I can get in touch with the company in several different ways, including phone, e-mail and contact form, whichever suits me best.
+4. As a user I want to have the same experience and ease of navigation on mobile devices and desktop. 
 
-As a user I can easily find information about the various services the company offers and focus on those relevant to me.
-    This is achieved by:
-        - links from services overview in the Home Page to specific sections in the Services page; 
-        - minimalisation of scrolling through the use of accordion on Services page and Back to top links.
+### Design
 
-As a user I can easily locate contact information at any point in my journey. I can get in touch with the company in several different ways, including phone, e-mail and contact form, whichever suits me best. 
-    This is achived by implementation of: 
-        - sticky footer to show contact info at all times;
-        - separate Contact Us page with contact form and the company address.
+### Scope
 
-As a user I want to have the same experience and ease of navigation on mobile devices and desktop: 
-    This is achived by: 
-        - implementation of different header design for laptops/tablets and mobiles;
-        - resising and adjusting the laout of images/text to better fit mobiles.
-
+### Structure
 <!-- Links to wireframes (in pdf) -->
 <!-- Screenshots of the site.  -->
+
 
 <!--(Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
@@ -37,84 +32,83 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ## Features
 
-Home Page: with overview of the services, the company and recommendations 
-Services Page: containg more details about each service and their types
-Contact Page: a Cotact From <!--(linked to what?)-->
+<!--(linked to what?)-->
 <!--In this section, you should go over the different parts of your project, and describe each in a sentence or so.()-->
 
 ### Existing Features
+
+Home Page: with overview of the services, the company and recommendations 
+Services Page: containg more details about each service and their types
+Contact Page: if preferred, users can submit their contact details and query instead of contacting the company via email directly to avoid being blocked by spam filters
+
 - Links to social media sites - to allow users review recommendations and the company's social media presence
-- Contact Form - if preferred, users can submit their contact details and query instead of contacting the company via email directly to avoid being blocked by spam filters
-- Services associated with different kind of mortgages presented as accordion
+- Contact Form 
+- Services associated with different kind of mortgages presented as accordion to facilitate access to relevant information
+- Responsive design of all elements on all pages
 
 <!--For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:-->
 
 ### Features Left to Implement
-- Industry news section or blog
-- 
+- Cookies and GDPR information 
+- A Polish version of the site
+- Section linking to industry news
 
 ## Technologies Used
-HTML and CSS
+
+### Languages
+- HTML5
+- CSS3
+<!-- - PHP÷ -->
+
+### Frameworks, Libraries and Programs used
+
+- VS Code: as the primary code editor
+- Git: for version control
+- Git Hub: to store project files
+- Google Fonts: used to import fonts used in the project: Nunito and Relay
+- Hover.css: for styling Contact From submit buttons
+- Affinity Designer: to resize and adjust the images for the website
+- Balsamiq: to create wireframes
 
 ## Testing
 
-- CSS and HTML validations using W3 sites
-- Tested for responsiveness and display on various devices: Android, Samsung browser iOS, Safari, Chrome, Firefox, 
+1. [W3C Markup Validator - Results] (link to results)
+2. [W3C CSS Validator - Results]
+3. Tested for responsiveness and display on various devices: 
+- Android (Samsung S8, Samsung Note8, Xiaomi)
+- Samsung Browser
+- iOS (iPhone S6) 
+- Safari
+- Chrome 
+- Firefox
 
-<!-- ### 1st validations: 
-#### CSS 
+### Bugs and fixes: 
 
-##### ERRORS:
-26	body	Value Error : font-weight Too many values or values are not recognized : 1,100  - removed
-186	#social-links	Value Error : float center is not a float value : center     - removed
-530 .hvr-fade	#a78f18 is not a transition-property value : #a78f18,#fff9ec    - fixed
+- labels in large accordion on the Services page were not showing properly on Safari; fixed issue by adding display: inline-block;
 
-##### WARNINGS: 
-344		-webkit-transition is an unknown vendor extension
-345		-moz-transition is an unknown vendor extension
-346		-o-transition is an unknown vendor extension
-347		-ms-transition is an unknown vendor extension
-391		alpha(opacity=0) is an unknown vendor extension
-394		-webkit-appearance is an unknown vendor extension
-395		-moz-appearance is an unknown vendor extension
-402		*height is a CSS hack                                   - removed
-403		*width is a CSS hack                                    - removed
-407		-webkit-transition is an unknown vendor extension
-408		-moz-transition is an unknown vendor extension
-409		-o-transition is an unknown vendor extension
-410		-ms-transition is an unknown vendor extension
-URI : https://koko-66.github.io/Project1_Domus-mea-finance/
-8		You should add a type attribute with a value of text/css to the link element - added
+## User Testing
 
-#### HMTL
+As the site user I can easily understand the purpose of the site and the nature of the business.
+This is achieved by:
+- relevant imagery, tag line in the header;
+- services overview placed right under the header of the Home Page.
 
-##### ERRORS
-<!DOCTYPE html> missing  - added
-At line 28 Duplicated class attribute  - removed
-Duplilcated ids for footer-left, footer-center, footer-right and social-links - changed to classes -->
+As a user I can easily find information about the various services the company offers and focus on those relevant to me.
+This is achieved by:
+- links from services overview in the Home Page to specific sections in the Services page;
+- minimalisation of scrolling through the use of accordion on Services page and Back to top links.
 
+As a user I can easily locate contact information at any point in my journey. I can get in touch with the company in several different ways, including phone, e-mail and contact form, whichever suits me best.
+This is achived by implementation of:
+- sticky footer to show contact info at all times;
+- separate Contact Us page with contact form and the company address.
 
+As a user I want to have the same experience and ease of navigation on mobile devices and desktop. 
+This is achived by:
+- implementation of different header design for laptops/tablets and mobiles;
+- resising and adjusting the laout of images/text to better fit mobiles.
 
-
-<!--In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-1. Contact form:
-1. Go to the "Contact Us" page
-2. Try to submit the empty form and verify that an error message about the required fields appears
-3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-4. Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.-->
 
 ## Credits
 
