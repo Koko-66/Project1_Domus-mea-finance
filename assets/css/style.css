@@ -1,17 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
-
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,100&display=swap'); */
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,200&display=swap');
-
-/* @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,200&family=Poppins&display=swap'); */
-
 
 /* colors 
 #fff9ec - off white
 #c2b697 - goldish / #dad0b9
 #1b3d2f - green
 #a78f18 - yellow; rgba(167, 143, 24, 0.5)
+#877311; - darker yellow; rgba(102, 104, 15, 1)
 91c0b7 - blue
 #84333e; - red
 #grey - rgb(168,169,172) 
@@ -61,7 +56,7 @@ h2 {
 }
 
 .intext-link {
-    color: #a78f18;
+    color: #877311;
     text-decoration: none;
     font-weight: 800;
 }
@@ -572,7 +567,7 @@ input[type="radio"] {
 
 .hvr-fade:hover {
     color: #fff9ec;
-    background-color: #a78f18;
+    background-color: #877311;
 }
 
 .hvr-fade {
@@ -588,7 +583,7 @@ input[type="radio"] {
     margin: 10px;
     padding: 5px 20px 5px 20px;
     font-weight: 700;
-    color: #a78f18;
+    color: #877311;
 }
 
 #input-other {
@@ -616,12 +611,12 @@ input[type="radio"] {
     margin: 10px;
     padding: 5px 20px 5px 20px;
     font-weight: 700;
-    color: #a78f18;
+    color: #877311;
 }
 
 .form-btn:hover {
     color: #fff9ec;
-    background-color: #a78f18;
+    background-color: #877311;
 }
 
 #backtotop {
