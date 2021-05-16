@@ -77,6 +77,7 @@ In addition, you may also use this section to discuss plans for additional featu
 - Hover.css: for styling Contact From submit buttons
 - Affinity Designer: to resize and adjust the images for the website
 - Balsamiq: to create wireframes
+- Lighthouse extension
 
 
 ## Testing
@@ -84,18 +85,21 @@ In addition, you may also use this section to discuss plans for additional featu
 ### Testing performance
 1. [W3C Markup Validator - Results] (link to results)
 2. [W3C CSS Validator - Results]
-3. Tested for responsiveness and display on various devices: 
+3. Run Lighthouse extension to check site performance. <!--[Results](...)-->
+4. Tested for responsiveness and display on various devices: 
 - Android (Samsung S8, Samsung Note8, Xiaomi)
 - Samsung Browser
 - iOS (iPhone S6) 
 - Safari
 - Chrome 
 - Firefox
-<!-- - iPad Pro 9.7 inch -->
+- iPad Pro 9.7 inch
 <!-- - Microsoft Surf 11 inch -->
 #### Bugs and fixes: 
 
 - Labels in large accordion on the Services page were not showing horizontally properly on Safari; fixed issue by adding "display: inline-block;" to .accordion-h.
+- On iPad Pro 9.7 inch in portrait view, the gap between the two columns in section using this layout was not visible; fixed by changing the "gap" styling to "padding".
+- In the Contact form, telephone number did not allow for a format with country code 
 
 ## User Testing
 
