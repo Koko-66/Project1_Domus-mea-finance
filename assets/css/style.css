@@ -231,7 +231,7 @@ section p {
     display: flex;
     align-items: center;
     text-align: justify;
-    gap: 20px;
+    /* gap: 20px; */
     padding: 10px;
     width: 80%;
     margin: auto;
@@ -241,6 +241,7 @@ section p {
 
 .two-columns div {
     width: 50%;
+    padding: 10px;
 }
 
 .two-columns strong {
