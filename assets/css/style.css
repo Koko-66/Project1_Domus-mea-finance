@@ -160,42 +160,40 @@ h2 {
     display: none;
 }
 
-.footer-right {
-    width: 33%;
-    float: right;
-    text-align: center;
-    margin: 0 auto;
-}
-
+.footer-right,
 .footer-left {
     width: 33%;
-    float: left;
+    /* float: right; */
     text-align: center;
     margin: 0 auto;
 }
 
+
+/* .footer-left {
+    width: 33%;
+    /* float: left; */
+
+text-align: center;
+margin: 0 auto;
+*/
+}
 .footer-center {
     width: 33%;
     text-align: center;
     margin: 0 auto;
 }
 
-
 /* footer social links */
-
 .social-links {
     margin-top: 2px;
 }
-
 .social-links ul {
     display: inline-table;
     list-style-type: none;
 }
-
 .social-links li {
     display: inline-block;
 }
-
 .social-links a {
     color: rgb(182, 183, 186);
     padding: 10px;
@@ -204,56 +202,48 @@ h2 {
     text-align: center;
 }
 
-
 /* home page */
-
 section {
     padding: 20px;
     clear: both;
 }
-
 section p {
     margin: 20px;
     text-align: left;
     clear: both;
 }
 
-
 /* about us */
-
 .two-columns {
     /* column-count: 2; */
+    
     display: flex;
     align-items: center;
     text-align: justify;
     /* gap: 20px; */
     /* padding: 10px; */
+    
     width: 80%;
     margin: auto;
     box-shadow: 1px 1px 4px rgb(0 0 0 / 8%);
     border: 7px solid rgb(168, 169, 172, 0.2);
 }
-
 .two-columns div {
     width: 50%;
     padding: 10px;
 }
-
 .two-columns span {
     background-color: rgba(167, 143, 24, 0.3);
     /* text-decoration: underline; */
     /* text-decoration-color: rgba(167, 143, 24); */
     /* text-decoration-style: double; */
 }
-
 #prot-d1 {
     width: 40%;
 }
-
 #prot-d2 {
     width: 60%;
 }
-
 .im-row {
     display: flex;
     flex-direction: row;
@@ -262,7 +252,6 @@ section p {
     clear: both;
     min-height: 300px;
 }
-
 .im-outer {
     width: 33%;
     border: 5px solid white;
@@ -270,14 +259,11 @@ section p {
     clear: both;
     text-align: center;
 }
-
 .im-label:hover {
     color: #84333e;
 }
 
-
 /* services section */
-
 .in-row-im {
     height: 250px;
     margin-top: 10px;
@@ -287,34 +273,26 @@ section p {
     justify-content: space-around;
     align-items: center;
 }
-
 #service-img1 {
     background: url("../images/tierra-mallorca-JXI2Ap8dTNc-unsplash_resize_470x330.jpg") no-repeat center center;
 }
-
 #service-img2 {
     background: url("../images/marek-studzinski-ELXxMMSF_L8-unsplash-resized\ for\ site.jpg") no-repeat center center;
 }
-
 #service-img3 {
     background: url("../images/pexels-adrianna-calvo-17739_resized_470x330.jpg") no-repeat center center;
 }
 
-
 /* Why us - testimonies section */
-
 #testimony-img1 {
     background: url("../images/pexels-kindel-media-7578931_resized.jpg") no-repeat center center;
 }
-
 #testimony-img2 {
     background: url("../images/pexels-mikhail-nilov-7735694_resized.jpg") no-repeat center center;
 }
-
 #testimony-img3 {
     background: url("../images/pexels-william-fortunato-resized.jpg") no-repeat center center;
 }
-
 .testimony-cont {
     background: rgba(38, 37, 40, 1);
     color: #fff9ec;
@@ -324,19 +302,14 @@ section p {
     margin: 0;
 }
 
-
 /* Professional bodies */
-
 #logos {
     margin-left: 20px;
 }
 
-
 /* _______services page*/
 
-
 /* accordion styling - large */
-
 .serv-container {
     width: 800px;
     margin: 20px auto;
@@ -344,7 +317,6 @@ section p {
     box-shadow: 1px 1px 4px rgb(0 0 0 / 8%);
     border: 7px solid rgb(168, 169, 172, 0.2);
 }
-
 .serv-container div {
     display: flex;
     color: rgb(38, 37, 40);
@@ -362,12 +334,10 @@ section p {
     -ms-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-
 .serv-container>div {
     position: relative;
     left: 0 !important;
 }
-
 #mortgages label {
     padding: 0;
     margin: 0;
@@ -377,10 +347,10 @@ section p {
     font-size: 18px;
     color: rgb(38, 37, 40);
     /* margin: 0 20px 0 20px; */
+    
     text-decoration: none;
     background-color: rgba(167, 143, 24, 0.5);
 }
-
 .accordion-h {
     display: inline-block;
     writing-mode: vertical-lr;
@@ -388,19 +358,16 @@ section p {
     margin: 0;
     height: auto;
 }
-
 .accordion-p {
     text-align: center;
     vertical-align: middle;
     width: 350px;
     margin: auto;
 }
-
 .serv-container input,
 .serv-container-sm input {
     display: none;
 }
-
 .serv-container input:checked~div {
     -webkit-transition: all 0.7s ease-in-out;
     -moz-transition: all 0.7s ease-in-out;
@@ -409,64 +376,53 @@ section p {
     transition: all 0.7s ease-in-out;
     left: 460px;
 }
-
 #acc-1 {
     margin-left: 6px;
 }
-
 .acc-par-h {
     font-size: 20px;
     text-decoration-line: underline;
     text-decoration-color: #a78f18;
 }
 
-
 /* accordion styling - small */
-
 #serv-container-small {
     display: none;
 }
-
 .serv-container-sm {
     width: 100%;
     margin: 0;
     box-shadow: 1px 1px 4px rgb(0 0 0 / 8%);
     border: 3px solid rgb(168, 169, 172, 0.2);
 }
-
 .serv-container-sm div {
     display: block;
     height: auto;
     width: auto;
 }
-
 .serv-container-sm label {
     display: block;
     cursor: pointer;
     padding: 5px;
 }
 
-
 /* .serv-container-sm label + input[type='radio'] {
     display: none;
 }    */
-
 #serv-container-small .accordion-p {
     display: none;
     /* padding:10px; */
+    
     margin: auto;
 }
 
-
 /* Show content boxes when the radio buttons are checked */
-
 #serv-container-small label+input[type='radio']:checked+.accordion-p {
     display: block;
     width: auto;
     text-align: justify;
     padding: 10px 5px;
 }
-
 #mortgage-img,
 #equity-img,
 #protection-img {
@@ -474,36 +430,28 @@ section p {
     margin: 20px;
 }
 
-
 /* #ft-buyers {
     background: url("../images/pexels-pnw-production-7327984_800x500.jpg") no-repeat center center;
 } */
-
 #equity-img {
     background: url("../images/pexels-tima-miroshnichenko-5699397_800x500.jpg") no-repeat center center;
 }
-
 #protection-img {
     background: url("../images/hands-protecting-a-house-picjumbo-com_800x500.jpg") no-repeat center center;
 }
-
 #mortgages ul,
 #protection ul {
     margin-left: 50px;
     text-align: left;
 }
-
 #protection li {
     padding: 0 0 5px 0;
 }
-
 li::marker {
     color: #a78f18;
 }
 
-
 /* contact form */
-
 #form-outer {
     background: url("../images/laptop-on-a-round-wooden-table-flat-lay-picjumbo-com_1200x800.jpg") no-repeat center center;
     background-color: rgba(38, 37, 40, 1);
@@ -511,28 +459,23 @@ li::marker {
     max-width: 1200px;
     margin: auto;
 }
-
 form {
     background-color: rgba(38, 37, 40, 0.8);
     height: auto;
     padding: 20px;
 }
-
 .table-row {
     display: table-row;
 }
-
 .table-cell {
     width: 500px;
 }
-
 label,
 input {
     text-align: left;
     line-height: 2em;
     display: table-cell;
 }
-
 label {
     font-size: 1.2em;
     color: #fff9ec;
@@ -540,19 +483,16 @@ label {
     padding: 10px 20px 0 10px;
     cursor: pointer;
 }
-
 input {
     border-radius: 5px;
     cursor: pointer;
     padding: 0 5px 0 5px;
 }
-
 input[type="radio"] {
     position: absolute;
     vertical-align: middle;
     margin-top: 20px;
 }
-
 #radio-buttons label {
     font-size: 1em;
     position: relative;
@@ -560,16 +500,13 @@ input[type="radio"] {
     padding-left: 30px;
     display: inline-block;
 }
-
 #radio-buttons p {
     margin: 0;
 }
-
 .hvr-fade:hover {
     color: #fff9ec;
     background-color: #877311;
 }
-
 .hvr-fade {
     display: inline-block;
     vertical-align: middle;
@@ -585,106 +522,110 @@ input[type="radio"] {
     font-weight: 700;
     color: #877311;
 }
-
 #input-other {
     width: 300px;
     /* height: 50px; */
+    
     color: #fff9ec;
     font-size: 1.2em;
     resize: both;
     text-align: start;
 }
-
 .center {
     text-align: center;
 }
-
 #radio-buttons {
     margin-left: 200px;
 }
-
 #form-btns {
     display: block;
 }
-
 .form-btn {
     margin: 10px;
     padding: 5px 20px 5px 20px;
     font-weight: 700;
     color: #877311;
 }
-
 .form-btn:hover {
     color: #fff9ec;
     background-color: #877311;
 }
-
 #backtotop {
     text-align: center;
     padding: 10px;
 }
 
-
 /* MEDIA QUERIES */
-
 @media screen and (max-width: 800px) {
     .serv-container {
         width: 700px;
     }
+    
     .serv-container div {
         left: 60px;
         width: 400px;
     }
+    
     .serv-container input:checked~div {
         left: 400px;
     }
+    
     .accordion-p {
         width: 300px;
     }
 }
-
 @media screen and (max-width: 700px) {
     /* Header and menu */
+    
     .longbar {
         width: 100%;
     }
+    
     .longbar a {
         margin: 5px;
         font-size: 18px;
     }
+    
     #header-container {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
+    
     #logo {
         background: url("https://domusmeafinance.co.uk/wp-content/uploads/2019/07/logo-60.png") no-repeat center center;
         width: 100%;
         margin: 0 0 5px;
         /* margin-right: 2%; */
     }
+    
     #hero-image {
         background: url("../images/pexels-moose-photos-1037912_resized\ for\ site.jpg") no-repeat top center;
         height: 275px;
         width: 100%;
     }
+    
     #tagline {
         height: 20px;
         padding-top: 5px;
         font-size: 12px;
     }
     /* Footer */
+    
     #footer {
         height: 100px;
         padding: 3px;
     }
+    
     #contact-large {
         display: none;
     }
+    
     #contact-small {
         display: flex;
         flex-direction: column;
     }
+    
     .footer-left,
     .footer-right,
     .footer-center {
@@ -692,76 +633,92 @@ input[type="radio"] {
         margin: 2px;
         font-size: 14px;
     }
+    
     .social-links a {
         margin: 5px;
     }
     /* Overal page content */
+    
     section p {
         margin: 10px;
         text-align: justify;
     }
+    
     .im-row {
         display: block;
         clear: both;
     }
+    
     .im-outer {
         width: auto;
     }
+    
     .two-columns {
         display: block;
         column-count: 1;
         text-align: justify;
         padding: 10px;
     }
+    
     .two-columns div,
     #prot-d1,
     #prot-d2 {
         width: auto;
     }
+    
     #mortgages ul,
     #protection ul {
         margin-left: 10px;
         column-count: 1;
     }
     /* Contact Form */
+    
     .table-row {
         display: block;
         /* flex-direction: column; */
     }
+    
     .table-cell {
         width: 100%;
     }
+    
     label {
         padding: 0 10px 0 0;
         line-height: 1.7em;
         font-size: 1.1em;
     }
+    
     input[type="radio"] {
         margin-top: 5px;
     }
+    
     #radio-buttons {
         margin-left: 20px;
     }
+    
     #form-btns {
         margin-top: 20px;
     }
 }
-
 @media screen and (max-width: 520px) {
     #affiliations {
         display: none;
     }
+    
     #serv-container-small {
         display: block;
     }
+    
     #serv-container-large {
         display: none;
     }
+    
     .accordion-p {
         width: auto;
         text-align: justify;
         padding: 10px 5px;
     }
+    
     #mortgages label {
         margin: 10px;
     }

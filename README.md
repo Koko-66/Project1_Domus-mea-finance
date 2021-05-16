@@ -34,14 +34,9 @@ https://koko-66.github.io/Project1_Domus-mea-finance/
 
 ## Features
 
-<!--(linked to what?)-->
-<!--In this section, you should go over the different parts of your project, and describe each in a sentence or so.()-->
-
 ### Genearal Features
 
-<!-- desicions on order of things -->
-
-<!-- Screenshots of the site.  -->
+The website features
 
 Home Page: with overview of the services, the company and recommendations 
 Services: containg more details about each service and their types
