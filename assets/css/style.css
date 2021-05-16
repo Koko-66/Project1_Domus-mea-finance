@@ -8,9 +8,9 @@
 #fff9ec - off white
 #c2b697 - goldish / #dad0b9
 #1b3d2f - green
-#a78f18 - yellow
+#a78f18 - yellow; rgba(167, 143, 24, 0.5)
 91c0b7 - blue
-#8433e - red
+#84333e; - red
 #grey - rgb(168,169,172) 
 charcoal - rgba(38, 37, 40, 1)
 */
@@ -38,7 +38,7 @@ hr {
     margin-bottom: 20px;
 }
 
-h1, h2, h3 {
+h1 {
     font-family: 'Relay', sans-serif;
     font-weight: 200;
     padding: 10px;
@@ -48,7 +48,7 @@ h1, h2, h3 {
     text-align: center;
 }
 
-h4 {
+h2 {
     font-size: 18px;
     color: rgb(38, 37, 40);
     margin: 0 20px 0 20px;
@@ -136,7 +136,7 @@ h4 {
 }
 
 .active {
-    background-color: #a78f18;
+    background-color: rgba(167, 143, 24, 0.7);
 }
 
 /* ______footer */
@@ -222,7 +222,7 @@ section p {
     display: flex;
     align-items: center;
     text-align: justify;
-    column-gap: 20px;
+    gap: 20px;
     padding: 10px;
     width: 80%;
     margin: auto;
@@ -481,13 +481,6 @@ section p {
 li::marker {
     color: #a78f18;
 }
-
-/* #mortgages h4 { */
-    /* text-align: center; */
-    /* padding-right: 10px; */
-    /* margin-bottom: 10px;
-
-} */
 
 /* contact form */
 
