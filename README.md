@@ -26,14 +26,10 @@ https://koko-66.github.io/Project1_Domus-mea-finance/
 
 #### Scope
 
+
 <!-- what is included and why -->
 <!-- Links to wireframes (in pdf) -->
 
-#### Structure
-
-<!-- desicions on order of things -->
-
-<!-- Screenshots of the site.  -->
 
 
 ## Features
@@ -41,9 +37,12 @@ https://koko-66.github.io/Project1_Domus-mea-finance/
 <!--(linked to what?)-->
 <!--In this section, you should go over the different parts of your project, and describe each in a sentence or so.()-->
 
-### Existing Features
+### Genearal Features
 
-Navigagtion bar and header repeated across all site. 
+<!-- desicions on order of things -->
+
+<!-- Screenshots of the site.  -->
+
 Home Page: with overview of the services, the company and recommendations 
 Services: containg more details about each service and their types
 Contact Page: if preferred, users can submit their contact details and query instead of contacting the company via email directly to avoid being blocked by spam filters
@@ -66,7 +65,7 @@ In addition, you may also use this section to discuss plans for additional featu
 ### Languages
 - HTML5
 - CSS3
-<!-- - PHP÷ -->
+<!-- - PHP -->
 
 ### Frameworks, Libraries and Programs used
 

@@ -38,21 +38,21 @@
                     <div id="form-details">
                         <p class="table-row">
                         <label for="first-name">Your Name  </label>
-                        <input type="text" name="fname" id="first-name" class="table-cell">
+                        <input type="text" name="fname" id="first-name" class="table-cell" required>
                         </p>
                         <p class="table-row"> 
                             <label for="email">Your e-mail</label>
-                            <input type="email" name="email" id="email" class="table-cell">
+                            <input type="email" name="email" id="email" class="table-cell" required>
                         </p>
                         <p class="table-row">
                             <label for="phone">Your phone</label>
-                            <input type="number" name="phone" id="phone" class="table-cell">
+                            <input type="number" name="phone" id="phone" class="table-cell" required>
                         </p>
                     </div>
                     <div><p><label>What are interested in?</label></p></div>
                     <fieldset>  
                         <div id="radio-buttons">
-                            <p><input id="first-time-rb" type="radio" name="service" value="first time">
+                            <p><input id="first-time-rb" type="radio" name="service" value="first time" required>
                                 <label for="first-time-rb">First-time Buyer</label></p>
                             <p><input id="remortgage-rb" type="radio" name="service" value="remortgage">
                                 <label for="remortgage-rb">Remortgaging</label></p>
@@ -62,7 +62,7 @@
                                 <label for="equity-release-rb">Equity Release</label></p>
                             <p><input id="protection-rb" type="radio" name="service" value="protection">
                                 <label for="protection-rb">Protection</label></p>
-                            <p><input id="other-rb" type="radio" name="services" value="other">
+                            <p><input id="other-rb" type="radio" name="other" value="other">
                                 <label for="other-rb">Something else</label></p>
                             <!-- <label for="message"></label> -->
                         </div>
