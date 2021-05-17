@@ -26,9 +26,16 @@ https://koko-66.github.io/Project1_Domus-mea-finance/
 
 #### Scope
 
+As a starting point, the website is composed of three pages: Home Page, Services and Contact Us page in English. 
+This set up allows a quick launch of site at its MVP to achieve its main purpose - increasing the company's online presence and reaching to more potential customers. 
 
-<!-- what is included and why -->
-<!-- Links to wireframes (in pdf) -->
+This initial scope and ideas on the layout were captured in [wireframes](assets/data/Domus_mea_finance-revised.pdf), at the very start of the project. 
+
+As the project progressed certain changes were applied to increase the value for the user: 
+- swapped 'Why Choose Us?' and 'Services' sectins on Home Page, to make the site's purpose clearer on first access.
+-  
+
+
 
 
 
@@ -74,7 +81,6 @@ In addition, you may also use this section to discuss plans for additional featu
 - Balsamiq: to create wireframes
 - Lighthouse extension: used to check the performance and accessibility of the website 
 
-
 ## Testing
 
 ### Testing performance
@@ -101,20 +107,26 @@ In addition, you may also use this section to discuss plans for additional featu
 1. As a first-time user:
 1.1. I can easily understand the purpose of the site and the nature of its business: 
 - On first opening the website I can identify the purpose of the site through the images, tagline and summary of servies visible right below the hero image.
+
 1.2. I can easily find information about the various services the company offers and focus on those relevant to me. 
 - On first opening the page, I can see a summary of the services right below the header. I can see the link to a separate page with Services on the navigation menu at the top.
 - I can focus on the information relevant to me by selecting to read about the services type that interst. I can use links to specific sections on the Services Page, e.g. Mortgages, and then choose to read only about the type of mortgage that interests me by selecting relevant heading in the accordion.
+
 1.3. I can easily navigate between different parts of the site without unnecessary scrolling.
 - The site contains navigation bar, links to specific sections of the Services Page on Home Page and "Back to Top" link at the bottom of Home and Services Pages
 <!-- - Links back to top after each section on Services Page? -->
 <!-- - Links to the sectiions lower on the Home Page? -->
+
 1.4. I can find out more about the company, their ethos and professional affiliations.
 - Home Page includes "About us" and "Why Us?" sections with company statement, recommendations and logos of professional bodies of which the company is a member with links to their sites. 
+
 1.5. I can easily locate contact information at any point in my journey through the site. 
 - Contact Us section is clearly visible in the navigation menu.
 - Footer, that is always visible, contains contact details.
+
 1.6. I can get in touch with the company in several different ways, whichever suits me best.
 - The contact details provided include: e-mail, telephone number and Contact Us form.
+
 1.7. I can check the company's presence and reviews on their social media.
 - The footer contains icons linked to business's social media site.
 
@@ -125,10 +137,9 @@ In addition, you may also use this section to discuss plans for additional featu
 
 2.2. I can easily navigate to the information that is relevant to me. 
 - Various links and organisation of the content makes it easy to focus specifiacally on the information relevant to you.
+
 2.3. I can access the comapny's social media to leave a review.
 - Footer contains a section "Recommend Us" links to social media pages.
-
-
 
 ## Credits
 
