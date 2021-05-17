@@ -55,7 +55,7 @@ The header layout changes to fit in the mobile devices. Screenshots of these are
 #### Footer
 Footer is also the same across all pages and remains visible throughout the whole time the user is on the site. It contains: 
 - company contact details: e-mail and telephone number;
-<!-- The e-mail and telephone number are linked to the email and phone functonality respectively, making it easier to contact. -->
+- The e-mail and telephone number are linked to the email and phone clients to facilitate contact directly from the site;
 - 'Recommend Us on Social Media' section with links to the social media sites. For the purpose of the course the links are generic but on live site, they will be linked to the company profiles.
 
 The footer's layout also changes when displayed on mobile devices. Screenshots of these are available here: 
@@ -128,6 +128,7 @@ It includes front-end validation of input:
 - Balsamiq: to create wireframes
 - Lighthouse (Chrome extension): used to check the performance and accessibility of the website
 - JS-CSS-HTML Formatter (VS Code extension): used to beautify the HTML and CSS code
+- Dev Tools on Chrome and Safari: used for code testing and trials
 
 ## Testing
 
