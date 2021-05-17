@@ -209,16 +209,13 @@ section p {
 /* about us */
 
 .two-columns {
-    /* column-count: 2; */
     display: flex;
     align-items: center;
     text-align: justify;
-    /* gap: 20px; */
-    /* padding: 10px; */
-    width: 80%;
+    width: 90%;
     margin: auto;
     box-shadow: 1px 1px 4px rgb(0 0 0 / 8%);
-    border: 7px solid rgb(168, 169, 172, 0.2);
+    border: 3px solid rgb(168, 169, 172, 0.2);
 }
 
 .two-columns div {
@@ -329,7 +326,7 @@ section p {
     margin: 20px auto;
     overflow: hidden;
     box-shadow: 1px 1px 4px rgb(0 0 0 / 8%);
-    border: 7px solid rgb(168, 169, 172, 0.2);
+    border: 3px solid rgb(168, 169, 172, 0.2);
 }
 
 .serv-container div {
@@ -415,8 +412,8 @@ section p {
 }
 
 .serv-container-sm {
-    width: 100%;
-    margin: 0;
+    width: 90%;
+    margin: auto;
     box-shadow: 1px 1px 4px rgb(0 0 0 / 8%);
     border: 3px solid rgb(168, 169, 172, 0.2);
 }
@@ -435,7 +432,6 @@ section p {
 
 #serv-container-small .accordion-p {
     display: none;
-    /* padding:10px; */
     margin: auto;
 }
 
@@ -446,7 +442,7 @@ section p {
     display: block;
     width: auto;
     text-align: justify;
-    padding: 10px 5px;
+    padding: 10px;
 }
 
 #mortgage-img,
@@ -686,7 +682,7 @@ input[type="radio"] {
         display: block;
         column-count: 1;
         text-align: justify;
-        padding: 10px;
+        /* padding: 10px; */
     }
     .two-columns div,
     #prot-d1,
@@ -739,5 +735,8 @@ input[type="radio"] {
     }
     #mortgages label {
         margin: 10px;
+    }
+    .section {
+        padding: 0;
     }
 }
