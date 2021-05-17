@@ -49,7 +49,7 @@ h1 {
 h2 {
     font-size: 18px;
     color: rgb(38, 37, 40);
-    margin: 0 20px 0 20px;
+    margin: auto;
     text-align: left;
     text-decoration: none;
     background-color: rgba(167, 143, 24, 0.5);
@@ -108,7 +108,7 @@ h2 {
     position: relative;
 }
 
-.longbar a {
+#menu a {
     text-decoration: none;
     color: #fff9ec;
     font-size: 20px;
@@ -131,7 +131,7 @@ h2 {
     text-align: center;
 }
 
-.longbar a:hover {
+#menu a:hover {
     background-color: #84333e;
 }
 
@@ -167,6 +167,16 @@ h2 {
     margin: 0 auto;
 }
 
+.footer-div a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.footer-div a:hover {
+    background-color: #84333e;
+    color: #fff9ec;
+}
+
 
 /* footer social links */
 
@@ -185,7 +195,7 @@ h2 {
 
 .social-links a {
     color: rgb(182, 183, 186);
-    padding: 10px;
+    padding: 5px 10px;
     margin-top: 5px;
     margin: 20px;
     text-align: center;
@@ -225,9 +235,6 @@ section p {
 
 .two-columns span {
     background-color: rgba(167, 143, 24, 0.3);
-    /* text-decoration: underline; */
-    /* text-decoration-color: rgba(167, 143, 24); */
-    /* text-decoration-style: double; */
 }
 
 #prot-d1 {
@@ -360,7 +367,6 @@ section p {
     line-height: 1.7em;
     font-size: 18px;
     color: rgb(38, 37, 40);
-    /* margin: 0 20px 0 20px; */
     text-decoration: none;
     background-color: rgba(167, 143, 24, 0.5);
 }
@@ -621,7 +627,7 @@ input[type="radio"] {
     .longbar {
         width: 100%;
     }
-    .longbar a {
+    #menu a {
         margin: 5px;
         font-size: 18px;
     }
@@ -736,7 +742,7 @@ input[type="radio"] {
     #mortgages label {
         margin: 10px;
     }
-    .section {
+    section {
         padding: 0;
     }
 }

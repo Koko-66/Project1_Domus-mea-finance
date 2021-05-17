@@ -32,33 +32,80 @@ This set up allows a quick launch of site at its MVP to achieve its main purpose
 This initial scope and ideas on the layout were captured in [wireframes](assets/data/Domus_mea_finance-revised.pdf), at the very start of the project. 
 
 As the project progressed certain changes were applied to increase the value for the user: 
-- swapped 'Why Choose Us?' and 'Services' sectins on Home Page, to make the site's purpose clearer on first access.
--  
-
-
-
-
+- swapped 'Why Choose Us?' and 'Services' sections on Home Page, to make the site's purpose clearer on first access.
+- Merged the 'About Us' conent that was to be right under the hero image with the 'Why Choose Us?' section.
+- 'What Our Client's Say?' section is presented as consequtive images at the moment. This might be revised at a later stage when more recommendations are available.
+- Simplified Services page to better match the amount of available content.
+- 'Where to Find Us' changed to 'Our Address' that includes address only, without map for the time being, considering restrictions on in-person meeting due to the Covid-19 situation. This might be updated to include Google Maps in the future. 
 
 ## Features
 
 ### Genearal Features
 
-The website features
+The website includes the following features: 
 
-Home Page: with overview of the services, the company and recommendations 
-Services: containg more details about each service and their types
-Contact Page: if preferred, users can submit their contact details and query instead of contacting the company via email directly to avoid being blocked by spam filters
+#### Header
+Header is the same throughout all pages and contains:
+- navigation bar at the top with the name of the current page highlighted;
+- hero image, logo and tagline providing a quick introduction of the business purpose.
+The header layout changes to fit in the mobile devices. Screenshots of these are available here: 
+[Desktop layout](link)
+[Mobile layout](link)
 
-- Links to social media sites - to allow users review recommendations and the company's social media presence
-- Contact Form 
-- Services associated with different kind of mortgages presented as accordion to facilitate access to relevant information
-- Responsive design of all elements on all pages
+#### Footer
+Footer is also the same across all pages and remains visible throughout the whole time the user is on the site. It contains: 
+- company contact details: e-mail and telephone number;
+<!-- The e-mail and telephone number are linked to the email and phone functonality respectively, making it easier to contact. -->
+- 'Recommend Us on Social Media' section with links to the social media sites. For the purpose of the course the links are generic but on live site, they will be linked to the company profiles.
 
-<!--For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:-->
+The footer's layout also changes when displayed on mobile devices. Screenshots of these are available here: 
+[Desktop layout](link)
+[Mobile layout](link)
+
+#### Home Page: 
+'Home Page' contains the following information: 
+- General overview of the three main types of services offerred &ndash; mortgages, equity release and protection (or insurance). At the end of each introductory text there is a link to the specific section on this particular services on the 'Services' page.
+- 'Why Chose Us?' section with information about the company, their ethos, experience - its selling pitch.
+- 'What Clients Say? section contains reviews lifted from the business's social media sites. 
+- 'Accredited By' section with logos of Professional Bodies from which the company received accreditationa and of which it is a member.  
+The content of each section has been adjusted for viewing on smaller screens: the sections with a row of three images ('Our Services' and 'What Our Clients Say?') switch to a view of a single image; the text content presented as two columns switches to one column and the 'Accredited By' section becomes hidden.
+
+#### Services: 
+This pages is split into 3 separate sections with more details about each service type and their sub-types.
+
+##### Mortgages section - accordion:
+Being the core service offered by the business, this appears first. 
+Having considered the number of various types of this service, and the amount of text for each, I decided to use accordions to allow the user select the service they would like to read about and hide most content from view. This way the user is not forced to scroll through a lot of irrelevant conent while searching for what is of interest to them. 
+Residential mortgages, being the majority of the company's business, were chosen as the section visible to the user when  first loading the page.
+
+The accordion showing on the larger devices (over 750px) is different to that used on smaller device and both have been scripted using only CSS (radio-buttons with transition and display;hidden methods, using inspiration and ideas from an existing site and a tutorial, see [Credits](link) section below).
+
+Accordion on large screen: 
+(image here)
+
+Accordion on smaller screen: 
+(image here)
+
+One piece of feedback and recommendation I received from my mentor about this feature was to avoid using vertical labels and change the style of the accordion on larger devices to match that of the smaller to improve user's reading experience. While I think that large accordion has aesthetic value and makes the site that little bit more interesting, I the user experience is a priority, so this feature will be further discussed with the client and consulted with a sample of users. 
+
+##### Equity Release and Protection sections: 
+These are relatively text-heavy and have been presented on large screen as two columns on larger devices and one column on smaller. 
+The two columns are enclosed in div elements rather than simple columns, to allow for a better control over how the text is split. 
+
+#### Contact Page: 
+
+Contact page offers the user an option to contact the company using contact form.
+It includes front-end validation of input: 
+- Name, e-mail and telephone number are set to required values;
+- e-mail requires the an email format and does not allow f
+- telehone field accepts only phone format and no text
+- At least one option has to be selected in 'What are you interested in?' to be able to submit the form.
+
+<!-- As expected, at preent the form is not connected to any database.  -->
+
 
 ### Features Left to Implement
-- Cookies and GDPR information 
+- Cookies to track traffic and GDPR information on form
 - A Polish version of the site
 - Section linking to industry news
 
@@ -79,7 +126,8 @@ In addition, you may also use this section to discuss plans for additional featu
 - Hover.css: for styling Contact From submit buttons
 - Affinity Designer: to resize and adjust the images for the website
 - Balsamiq: to create wireframes
-- Lighthouse extension: used to check the performance and accessibility of the website 
+- Lighthouse (Chrome extension): used to check the performance and accessibility of the website
+- JS-CSS-HTML Formatter (VS Code extension): used to beautify the HTML and CSS code
 
 ## Testing
 
