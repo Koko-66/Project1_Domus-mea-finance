@@ -209,6 +209,7 @@ h2 {
 
 #contact-small {
     display: none;
+    margin: 5px;
 }
 
 .footer-div {
@@ -381,6 +382,7 @@ section p {
 
 #logos {
     margin-left: 20px;
+    background-color: white;
 }
 
 
