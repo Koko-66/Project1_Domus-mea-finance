@@ -9,18 +9,18 @@ https://koko-66.github.io/Project1_Domus-mea-finance/
 
 ### User Stories
 1. As a first-time user:
-1.1. I can easily understand the purpose of the site and the nature of its business.
-1.2. I can easily find information about the various services the company offers and focus on those relevant to me. 
-1.3. I can easily navigate between different parts of the site withough unnecessary scrolling.
-1.4. I can find out more about the company, their ethos and professional affiliations.
-1.5. I can easily locate contact information at any point in my journey through the site. 
-1.6. I can get in touch with the company in several different ways, whichever suits me best.
-1.7. I can check the company's presence and reviews on their social media.
+    - I can easily understand the purpose of the site and the nature of its business.
+    - I can easily find information about the various services the company offers and focus on those relevant to me. 
+    - I can easily navigate between different parts of the site withough unnecessary scrolling.
+    - I can find out more about the company, their ethos and professional affiliations.
+    - I can easily locate contact information at any point in my journey through the site. 
+    - I can get in touch with the company in several different ways, whichever suits me best.
+    - I can check the company's presence and reviews on their social media.
 
 2. As a returning site user:
-2.1. On returning to the site on a different device I have the same experience and ease of navigation.
-2.2. I can easily navigate to the information that is relevant to me. 
-2.3. I can access the comapny's social media to leave a review.
+    - On returning to the site on a different device I have the same experience and ease of navigation.
+    - I can easily navigate to the information that is relevant to me. 
+    - I can access the comapny's social media to leave a review.
 
 ### Design
 
