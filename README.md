@@ -46,7 +46,7 @@ The website includes the following features:
 
 #### Header
 Header is the same throughout all pages and contains:
-- navigation bar at the top with the name of the current page highlighted;
+- navigation bar at the top with the name of the current page highlighted and a hover animation
 - hero image, logo and tagline providing a quick introduction of the business purpose.
 The header layout changes to fit in the mobile devices. Screenshots of these are available here: 
 [Desktop layout](link)
@@ -123,7 +123,6 @@ It includes front-end validation of input:
 - Git Hub: to store project files
 - Google Fonts: used to import fonts used in the project: Nunito and Relay
 - Font Awesome: used for the social links icons in the footer
-- Hover.css: for styling Contact From submit buttons
 - Affinity Designer: to resize and adjust the images for the website
 - Balsamiq: to create wireframes
 - Lighthouse (Chrome extension): used to check the performance and accessibility of the website
@@ -133,8 +132,8 @@ It includes front-end validation of input:
 ## Testing
 
 ### Testing performance
-1. [W3C Markup Validator - Results] (link to results)
-2. [W3C CSS Validator - Results]
+1. W3C Markup Validator - [Results]()
+2. W3C CSS Validator - [Results](assets/data/W3C CSS Validator results for https___koko-66.github.io_Project1_Domus-mea-finance_services.html (CSS level 3 + SVG).html)
 3. Run Lighthouse extension to check site performance. <!--[Results](...)-->
 4. Tested for responsiveness and display on various devices: 
 - Android (Samsung S8, Samsung Note8, Xiaomi)
@@ -194,11 +193,12 @@ It includes front-end validation of input:
 
 ## Credits
 
-- Thank you to my mentor for pointing me in the right direction and making sure I am on track. 
-- A great thanks to photographers kindly allowing for a free use of their photos via the sites mentioned in the Media section below: Andrea Piacquadio, Kindel Media, William Fortunato, Tma Miroshnichenko, PNW Production, Moose Photos, Mikhail Nilov, Lukas and Andrew Neel, Marek Studziński, Matthew Sleeper, Viktor Hanacek
-- Thanks to https://webdesignerhut.com/pure-css-accordion-using-radio-buttons/ and https://tympanus.net/Tutorials/CSS3ImageAccordion/ for the inspiration and parts of code for the accordion sections on the Services page
-
-- And of course to Stackoverflow community and code-boxx for various hints and tips. 
+Great thanks to: 
+- my mentor for pointing me in the right direction and making sure I am on track;
+- Hover.css for help in styling footer animations and Contact From submit buttons;
+- https://webdesignerhut.com/pure-css-accordion-using-radio-buttons/ and https://tympanus.net/Tutorials/CSS3ImageAccordion/ sites for the inspiration and parts of code for the accordion sections on the Services page;
+- to photographers kindly allowing for a free use of their photos via the sites mentioned in the Media section below: Andrea Piacquadio, Kindel Media, William Fortunato, Tma Miroshnichenko, PNW Production, Moose Photos, Mikhail Nilov, Lukas and Andrew Neel, Marek Studziński, Matthew Sleeper, Viktor Hanacek;
+- Stackoverflow community and code-boxx for various hints and tips.
 
 ### Content
 The text for individual pages was provided in full by Domus Mea Finance owner. 
