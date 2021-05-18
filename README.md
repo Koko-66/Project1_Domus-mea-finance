@@ -136,13 +136,13 @@ It includes front-end validation of input:
 2. W3C CSS Validator - [Results](assets/data/W3C CSS Validator results for https___koko-66.github.io_Project1_Domus-mea-finance_services.html (CSS level 3 + SVG).html)
 3. Run Lighthouse extension to check site performance. <!--[Results](...)-->
 4. Tested for responsiveness and display on various devices: 
-- Android (Samsung S8, Samsung Note8, Xiaomi)
-- Samsung Browser
-- iOS (iPhone S6) 
-- Safari
-- Chrome 
-- Firefox
-- iPad Pro 9.7 inch
+    - Android (Samsung S8, Samsung Note8, Xiaomi)
+    - Samsung Browser
+    - iOS (iPhone S6) 
+    - Safari
+    - Chrome 
+    - Firefox
+    - iPad Pro 9.7 inch
 <!-- - Microsoft Surf 11 inch -->
 #### Bugs and fixes: 
 
