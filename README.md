@@ -149,7 +149,9 @@ It includes front-end validation of input:
 
 - Labels in large accordion on the Services page were not showing horizontally properly on Safari; fixed issue by adding "display: inline-block;" to .accordion-h.
 - On iPad Pro 9.7 inch in portrait view, the gap between the two columns in section using this layout was not visible; fixed by changing the "gap" styling to "padding".
-- In the Contact form, telephone number did not allow for a format with country code 
+- In the Contact form, telephone number did not allow for a format with country code.
+- Changed the layout of the section with three images in a row to align the images in the same line irrespective of the size of the text. 
+- The fix above cause another issue - the images were no longer visible on mobile. Fixed. 
 
 ## User Testing
 

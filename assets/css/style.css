@@ -266,6 +266,12 @@ section p {
     text-align: center;
 }
 
+#serv-img1-s,
+#serv-img2-s,
+#serv-img3-s {
+    display: none;
+}
+
 .im-label:hover {
     color: #84333e;
 }
@@ -274,7 +280,7 @@ section p {
 /* services section */
 
 .in-row-im {
-    height: 250px;
+    /* height: 250px; */
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
@@ -283,15 +289,18 @@ section p {
     align-items: center;
 }
 
-#service-img1 {
+#service-img1,
+#service-img1-s {
     background: url("../images/tierra-mallorca-JXI2Ap8dTNc-unsplash_resize_470x330.jpg") no-repeat center center;
 }
 
-#service-img2 {
+#service-img2,
+#service-img2-s {
     background: url("../images/marek-studzinski-ELXxMMSF_L8-unsplash-resized\ for\ site.jpg") no-repeat center center;
 }
 
-#service-img3 {
+#service-img3,
+#service-img3-s {
     background: url("../images/pexels-adrianna-calvo-17739_resized_470x330.jpg") no-repeat center center;
 }
 
@@ -678,7 +687,7 @@ input[type="radio"] {
     }
     /* Overal page content */
     section p {
-        margin: 10px;
+        /* margin: 10px; */
         text-align: justify;
     }
     .im-row {
@@ -687,6 +696,18 @@ input[type="radio"] {
     }
     .im-outer {
         width: auto;
+    }
+    #img-large {
+        display: none;
+    }
+    #serv-img1-s,
+    #serv-img2-s,
+    #serv-img3-s {
+        display: block;
+    }
+    .in-row-im {
+        height: 250px;
+        width: 100%;
     }
     .two-columns {
         display: block;
