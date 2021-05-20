@@ -78,7 +78,7 @@ Being the core service offered by the business, this appears first.
 Having considered that there are 6 types of this service, and the amount of text describing each, I decided to use accordions allowing the user to select the service they would like to read about and hide other content from view. This way the user is not forced to scroll through a lot of irrelevant content while searching for what is of interest to them. 
 Residential mortgages, being the majority of the company's business, were chosen as the section visible to the user when  first loading the page.
 
-The accordion showing on the larger devices (over 750px) is different to that used on smaller devices and both have been scripted using only CSS (radio-buttons with transition and display: none methods, using inspiration and ideas from an existing site and a tutorial, see [Credits](#credits) section below).
+The accordion showing on the larger devices (over 700px) is different to that used on smaller devices and both have been scripted using only CSS (radio-buttons with transition and display: none methods, using inspiration and ideas from an existing site and a tutorial, see [Credits](#credits) section below).
 
 Accordion on large screen: 
 (image here)
@@ -86,7 +86,7 @@ Accordion on large screen:
 Accordion on smaller screen: 
 (image here)
 
-One piece of feedback and recommendation I received from my mentor about this feature was to avoid using vertical labels and change the style of the accordion on larger devices to match that of the smaller to improve user's reading experience. While I think that large accordion has aesthetic value and makes the site that little bit more interesting, I agree that the user experience is a priority, so this feature will be further discussed with the client and consulted with a sample of users. 
+The initial idea for an accordion was a bit different to the final design. The accordion worked similarly, but was arranged with labels running vertically on the side of indvidual divs, which my mentor recommended to change to improve user experience since it caused difficulty reading. 
 
 ##### Equity Release and Protection sections: 
 These are relatively text-heavy, therefore are presented on larger screens as two columns and one column on smaller ones. 
@@ -106,6 +106,7 @@ As expected, at present the form is not connected to any database.
 - Cookies to track traffic and GDPR information on form
 - A Polish version of the site
 - Section linking to industry news
+- Add hihglight/color to the selected label in the large accordion
 
 ## Technologies Used
 
@@ -129,8 +130,8 @@ As expected, at present the form is not connected to any database.
 ## Testing
 
 ### Testing performance
-1. W3C Markup Validator - [Results]()
-2. W3C CSS Validator - [Results](assets/data/W3C CSS Validator results for https___koko-66.github.io_Project1_Domus-mea-finance_services.html (CSS level 3 + SVG).html)
+1. W3C Markup Validator - [Results](assets/data/HTML_validation.pdf)
+2. W3C CSS Validator - [Results](assets/data/W3C_CSS_Validator_results_for_https___koko-66.github.io_Project1_Domus-mea-finance_services.html_(CSS-level-3+SVG).html)
 3. Run Lighthouse extension to check site performance. <!--[Results](...)-->
 4. Tested the form and all devices listed below
 5. Tested for responsiveness and display on various devices: 

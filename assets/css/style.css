@@ -657,7 +657,7 @@ input[type="radio"] {
     margin: 10px;
     padding: 5px 20px 5px 20px;
     font-weight: 700;
-    color: #877311;
+    color: rgba(38, 37, 40, 1);
 }
 
 #input-other {
@@ -681,18 +681,6 @@ input[type="radio"] {
     display: block;
 }
 
-.form-btn {
-    margin: 10px;
-    padding: 5px 20px 5px 20px;
-    font-weight: 700;
-    color: #877311;
-}
-
-.form-btn:hover {
-    color: #fff9ec;
-    background-color: #877311;
-}
-
 #backtotop {
     text-align: center;
     padding: 10px;
@@ -703,7 +691,7 @@ input[type="radio"] {
 
 @media screen and (max-width: 850px) {
     .serv-container {
-        width: 700px;
+        width: 680px;
     }
     .serv-container div {
         /* left: 60px; */
