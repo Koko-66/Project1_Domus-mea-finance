@@ -706,6 +706,30 @@ input[type="radio"] {
     }
 }
 
+@media screen and (max-width: 720px) {
+    #affiliations {
+        display: none;
+    }
+    #serv-container-small {
+        display: block;
+    }
+    #serv-container-large {
+        display: none;
+    }
+    .accordion-p {
+        width: auto;
+        text-align: justify;
+        padding: 10px 5px;
+    }
+    #mortgages label {
+        margin: 10px;
+        padding: 0;
+    }
+    section {
+        padding: 0;
+    }
+}
+
 @media screen and (max-width: 700px) {
     /* Header and menu */
     .longbar {
@@ -817,28 +841,5 @@ input[type="radio"] {
     }
     #form-btns {
         margin-top: 20px;
-    }
-    /* } */
-    /* @media screen and (max-width: 750px) { */
-    #affiliations {
-        display: none;
-    }
-    #serv-container-small {
-        display: block;
-    }
-    #serv-container-large {
-        display: none;
-    }
-    .accordion-p {
-        width: auto;
-        text-align: justify;
-        padding: 10px 5px;
-    }
-    #mortgages label {
-        margin: 10px;
-        padding: 0;
-    }
-    section {
-        padding: 0;
     }
 }
