@@ -391,8 +391,7 @@ section p {
 
 /* accordion styling - large */
 
-.serv-container {
-    display: flex;
+.serv-container-small {
     width: 800px;
     margin: 20px auto;
     overflow: hidden;
@@ -400,15 +399,51 @@ section p {
     border: 3px solid rgb(168, 169, 172, 0.2);
 }
 
-
-/* ***New*** */
-
-#labels {
+.serv-container-small div {
     display: flex;
-    flex-direction: column;
-    height: auto;
-    width: auto;
-    margin: auto;
+    color: rgb(38, 37, 40);
+    background-color: white;
+    position: absolute;
+    padding: 10px;
+    height: 500px;
+    top: 0px;
+    left: 70px;
+    width: 460px;
+    box-shadow: 0 0 0 1px rgb(255 255 255 / 60%);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.serv-container-small>div {
+    position: relative;
+    left: 0 !important;
+}
+
+#mortgages label {
+    padding: 0;
+    margin: 10px;
+    height: 100%;
+    text-align: center;
+    line-height: 1.7em;
+    font-size: 18px;
+    color: rgb(38, 37, 40);
+    text-decoration: none;
+    background-color: rgba(167, 143, 24, 0.5);
+}
+
+
+/* accordion styling - large */
+
+
+/* .serv-container {
+    width: 800px;
+    margin: 20px auto;
+    overflow: hidden;
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 8%);
+    border: 3px solid rgb(168, 169, 172, 0.2);
 }
 
 .serv-container div {
@@ -417,10 +452,10 @@ section p {
     background-color: white;
     position: absolute;
     padding: 10px;
-    height: 400px;
+    height: 500px;
     top: 0px;
-    left: 1px;
-    width: 500px;
+    left: 70px;
+    width: 460px;
     box-shadow: 0 0 0 1px rgb(255 255 255 / 60%);
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -432,54 +467,40 @@ section p {
 .serv-container>div {
     position: relative;
     left: 0 !important;
-}
-
-#mortgages label {
-    padding: 10px;
-    margin: 7px 0;
-    height: 100%;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 1.7em;
-    font-size: 18px;
-    color: rgb(38, 37, 40);
-    background-color: rgba(167, 143, 24, 0.5);
-}
-
-
-/* .serv-container input:checked+label {
-    background-color: rgba(167, 143, 24, 0.7);
 } */
 
 
-/* .accordion-h { */
+/* #mortgages label {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    text-align: center;
+    line-height: 1.7em;
+    font-size: 18px;
+    color: rgb(38, 37, 40);
+    text-decoration: none;
+    background-color: rgba(167, 143, 24, 0.5);
+} */
 
 
-/* display: inline-block; */
-
-
-/* writing-mode: vertical-lr; */
-
-
-/* transform: rotate(180deg); */
-
-
-/* margin: 0; */
-
-
-/* height: auto; */
-
-
-/* } */
+/* .accordion-h {
+    display: inline-block;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin: 0;
+    height: auto;
+} */
 
 .accordion-p {
     text-align: center;
     vertical-align: middle;
-    width: 450px;
+    width: 350px;
     margin: auto;
 }
 
-.serv-container input,
+
+/* .serv-container input, */
+
 .serv-container-sm input {
     display: none;
 }
@@ -490,27 +511,27 @@ section p {
     -o-transition: all 0.7s ease-in-out;
     -ms-transition: all 0.7s ease-in-out;
     transition: all 0.7s ease-in-out;
-    left: 500px;
+    left: 460px;
 }
 
 
 /* #acc-1 {
     margin-left: 6px;
-    display: inline-block;
-} */
+}
 
 .acc-par-h {
     font-size: 20px;
     text-decoration-line: underline;
     text-decoration-color: #a78f18;
-}
+} */
 
 
 /* accordion styling - small */
 
-#serv-container-small {
+
+/* #serv-container-small {
     display: none;
-}
+} */
 
 .serv-container-sm {
     width: 90%;
@@ -706,9 +727,8 @@ input[type="radio"] {
         width: 700px;
     }
     .serv-container div {
-        /* left: 60px; */
+        left: 60px;
         width: 400px;
-        height: 550px;
     }
     .serv-container input:checked~div {
         left: 400px;
@@ -830,8 +850,9 @@ input[type="radio"] {
     #form-btns {
         margin-top: 20px;
     }
-    /* } */
-    /* @media screen and (max-width: 750px) { */
+}
+
+@media screen and (max-width: 750px) {
     #affiliations {
         display: none;
     }
@@ -848,7 +869,6 @@ input[type="radio"] {
     }
     #mortgages label {
         margin: 10px;
-        padding: 0;
     }
     section {
         padding: 0;
