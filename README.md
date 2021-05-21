@@ -32,11 +32,11 @@ This set up allows a quick launch of site as an MVP to achieve its main purpose 
 The initial scope and ideas about the layout were captured in [wireframes](assets/data/Domus_mea_finance-revised.pdf) at the start of the project. 
 
 As the project progressed certain changes were applied to increase the value for the user: 
-- Swapped _Why Choose Us?_ and _Services_ sections on *Home Page*, to make the site's purpose clearer on first access.
+- Swapped _Why Choose Us?_ and _Services_ sections on __Home Page__, to make the site's purpose clearer on first access.
 - Merged the _About Us_ content that was to be right under the hero image with the _Why Choose Us?_ section.
 - _What Our Client's Say?_ section is presented as a simple row of images with reviews at the moment, rather than a carousel. This might be revised at a later stage when more recommendations are available.
-- Simplified *Services* page to better match the amount of available content.
-- Considering restrictions on in-person meetings due to the Covid-19 situation, _Where to Find Us_ changed to _Our Address_ on *Contact Page* without the map for the time being. This might be updated to include Google Maps in the future. 
+- Simplified __Services__ page to better match the amount of available content.
+- Considering restrictions on in-person meetings due to the Covid-19 situation, _Where to Find Us_ changed to _Our Address_ on __Contact Page__ without the map for the time being. This might be updated to include Google Maps in the future. 
 
 ## Features
 
@@ -61,8 +61,8 @@ The header and footer layout changes to fit in the mobile devices. Screenshots o
 - [Mobile layout](assets/data/Small_header_and_footer.png)
 
 #### Home Page: 
-*Home Page* contains the following information: 
-- _Our Services_ section with general overview of the three main types of services offered &ndash; mortgages, equity release and protection (or insurance). At the end of each introductory text there is a link to the specific section on that service on the *Services* page.
+__Home Page__ contains the following information: 
+- _Our Services_ section with general overview of the three main types of services offered &ndash; mortgages, equity release and protection (or insurance). At the end of each introductory text there is a link to the specific section on that service on the ==Services page==.
 - _Why Chose Us?_ section with information about the company, their ethos, experience - the company's selling pitch.
 - _What Clients Say?_ section contains reviews lifted from the business's social media sites. 
 - _Accredited By_ section with logos of the organisation from which the company received accreditation and is a member of. These link to the organisations' sites, which open in another tab.
@@ -89,11 +89,11 @@ The initial idea for an accordion was a bit different to the final design. The a
 
 ##### Equity Release and Protection sections: 
 These are relatively text-heavy, therefore are presented on larger screens as two columns and one column on smaller ones. 
-Rather than using _columns_ within a paragraph, I used div elements to have greater control over how the text is split when the screen size changes. 
+Rather than using 'columns' within a paragraph, I used div elements to have greater control over how the text is split when the screen size changes. 
 
 #### Contact Us Page: 
 
-*Contact Us* page offers the user an option to contact the company using contact form.
+__Contact Us__ page offers the user an option to contact the company using contact form.
 It includes front-end validation of input: 
 - name, e-mail and telephone number are set to required values;
 - e-mail requires an email format;
@@ -131,9 +131,9 @@ As expected, at present the form is not connected to any database.
 
 ### Testing performance
 1. W3C Markup Validator - [Results](assets/data/HTML_validation.pdf)
-2. W3C CSS Validator - [Results](assets/data/W3C_CSS_Validator_results_for_https___koko-66.github.io_Project1_Domus-mea-finance_services.html_(CSS-level-3+SVG).html)
+2. W3C CSS Validator - [Results](assets/data/CSS_Validation.pdf)
     - the validator picked up 13 errors all relating to the use of -webkit elements. Considering compatibility with different browsers a priority, I decided to ignore these warnings and keep these elements.
-3. Run Lighthouse extension to check site performance. Results: [Home Page](assets/data/Lighthouse-Report_Home-Page.html), [Services](assets/data/Lighthouse_Report_Services.html), [Contact Us](assets/data/Lighthouse_Report_Contact-us.html)
+3. Run Lighthouse extension to check site performance. Results: [Home Page](assets/data/Lighthouse_Report_HomePage.pdf), [Services](assets/data/Lighthouse_Report_Services.pdf), [Contact Us](assets/data/Lighthouse_Report_Contact-Us.pdf)
 4. Tested the form and all devices listed below
 5. Tested for responsiveness and display on various devices: 
     - Android (Samsung S8, Samsung Note8, Xiaomi)
@@ -148,11 +148,11 @@ As expected, at present the form is not connected to any database.
     - Opera
 
 #### Bugs and fixes: 
-- Labels in large accordion on the Services page were not showing vertically on Safari; fixed issue by adding "display: inline-block;" to .accordion-h.
-- On iPad Pro 9.7 inch in portrait view, the gap between the two columns in section using this layout was not visible; fixed by changing "gap" styling to "padding".
+- Labels in large accordion on the Services page were not showing vertically on Safari; fixed issue by adding 'display: inline-block;' to .accordion-h.
+- On iPad Pro 9.7 inch in portrait view, the gap between the two columns in section using this layout was not visible; fixed by changing 'gap' styling to 'padding'.
 - In the Contact form, telephone number did not allow for a format with country code using '+'. Changed field type from number to 'tel'.
-- The images in _Our Services_ section on *Home Page* when resizing the screen were pushed out of line. To fix it, changed the layout to fit text and images in separate divs on larger screens. 
-- The fix above caused and issue with the images no longer being visible on mobile. Fixed by duplicating the images in the paragraphs and setting them to display:none; on larger screens.
+- The images in _Our Services_ section on __Home Page__ when resizing the screen were pushed out of line. To fix it, changed the layout to fit text and images in separate divs on larger screens. 
+- The fix above caused and issue with the images no longer being visible on mobile. Fixed by duplicating the images in the paragraphs and setting them to 'display:none;' on larger screens.
 - The site does not have enough contrast when viewed in dark mode. This is still to be investigated.
 
 ## User Testing
@@ -162,17 +162,17 @@ As expected, at present the form is not connected to any database.
         - On first opening the website I can identify the purpose of the site through the images, tagline and summary of services visible right below the hero image.
 
     - I can easily find information about the various services the company offers and focus on those relevant to me. 
-        - On first opening the page, I can see a summary of the services right below the header. I can see the link to a separate page with Services on the navigation menu at the top.
-        - I can focus on the information relevant to me by selecting to read about the services type that interest me. I can use links to specific sections on the Services Page, e.g., Mortgages, and then choose to read only about the type of mortgage that interests me by selecting relevant heading in the accordion.
+        - On first opening the page, I can see a summary of the services right below the header. I can see the link to a separate page with services on the navigation menu at the top.
+        - I can focus on the information relevant to me by selecting to read about the services type that interest me. I can use links to specific sections on the **Services** page, e.g., Mortgages, and then choose to read only about the type of mortgage that interests me by selecting a relevant heading in the accordion.
 
     - I can easily navigate between different parts of the site without unnecessary scrolling.
-        - The site contains navigation bar, links to specific sections of the Services Page on Home Page and "Back to Top" link at the bottom of Home and Services Pages
+        - The site contains navigation bar, links to specific sections of the **Services** page on **Home Page** and _Back to Top_ link at the bottom of **Home Page** and **Services**.
 
     - I can find out more about the company, their ethos and professional affiliations.
-        - Home Page includes "About us" and "Why Us?" sections with company statement, recommendations, and logos of professional bodies of which the company is a member with links to their sites. 
+        - Home Page includes _About us_ and _Why Choose Us?_ sections with company statement, recommendations, and logos of professional bodies of which the company is a member with links to their sites. 
 
     - I can easily locate contact information at any point in my journey through the site. 
-        - Contact Us section is clearly visible in the navigation menu.
+        - There is a separate **Contact Us** accessible from the navigation menu.
         - Footer with contact details is always visible.
 
     - I can get in touch with the company in several different ways, whichever suits me best.
@@ -190,7 +190,7 @@ As expected, at present the form is not connected to any database.
         - Various links and organisation of the content make it easy for me as a user to find and focus specifically on the information relevant to the me.
 
     - I can access the company's social media to leave a review.
-        - Footer contains a section "Recommend Us" links to social media pages.
+        - Footer contains a section _Recommend Us_ links to social media pages.
 
 ## <a name="credits"></a> Credits
 
