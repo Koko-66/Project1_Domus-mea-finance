@@ -79,7 +79,7 @@ The accordion showing on the larger devices (over 700px) is different to that us
 
 The initial idea for an accordion was a bit different to the final design. The accordion worked similarly but was arranged with labels running vertically on the side of individual divs, which my mentor recommended to change to improve user experience since it caused difficulty reading. 
 
-#### Equity Release and Protection sections: 
+#### Equity Release and Protection sections
 These are relatively text-heavy, therefore are presented on larger screens as two columns and one column on smaller ones. 
 Rather than using 'columns' within a paragraph, I used div elements to have greater control over how the text is split when the screen size changes. 
 
@@ -98,7 +98,7 @@ As expected, at present the form is not connected to any database.
 - A Polish version of the site
 - Section linking to industry news
 - Add highlight/colour to the selected label in the large accordion
-- adjust design for dark mode
+- Adjust design for dark mode
 
 ## Technologies Used
 
@@ -139,7 +139,7 @@ As expected, at present the form is not connected to any database.
     - Edge
     - Opera
 
-#### Bugs and fixes: 
+#### Bugs and fixes
 - Labels in large accordion on the Services page were not showing vertically on Safari; fixed issue by adding 'display: inline-block;' to .accordion-h.
 - On iPad Pro 9.7 inch in portrait view, the gap between the two columns in section using this layout was not visible; fixed by changing 'gap' styling to 'padding'.
 - In the Contact form, telephone number did not allow for a format with country code using '+'. Changed field type from number to 'tel'.
@@ -150,33 +150,33 @@ As expected, at present the form is not connected to any database.
 ## User Testing
 
 1. As a first-time user:
-    - I can easily understand the purpose of the site and the nature of its business: 
+    - I can easily understand the purpose of the site and the nature of its business.
         - On first opening the website I can identify the purpose of the site through the images, tagline and summary of services visible right below the hero image.
 
     - I can easily find information about the various services the company offers and focus on those relevant to me. 
         - On first opening the page, I can see a summary of the services right below the header. I can see the link to a separate page with services on the navigation menu at the top.
-        - I can focus on the information relevant to me by selecting to read about the services type that interest me. I can use links to specific sections on the **Services** page, e.g., Mortgages, and then choose to read only about the type of mortgage that interests me by selecting a relevant heading in the accordion.
+        - I can focus on the information relevant to me by selecting to read about the services type that interest me. I can use links to specific sections on the **Services** page, e.g. Mortgages, and then choose to read only about the type of mortgage type that interests me by selecting a relevant heading in the accordion.
 
     - I can easily navigate between different parts of the site without unnecessary scrolling.
-        - The site contains navigation bar, links to specific sections of the **Services** page on **Home Page** and _Back to Top_ link at the bottom of **Home Page** and **Services**.
+        - The site features navigation bar, links to specific sections of the **Services** page on **Home Page** and _Back to Top_ link at the bottom of **Home Page** and **Services**.
 
-    - I can find out more about the company, their ethos and professional affiliations.
+    - I can find out more about the company, their ethos and professional credentials.
         - Home Page includes _Why Choose Us?_ section with a company statement, a section with other customers testimonies, and logos of professional bodies of which the company is a member and is accredited by with links to their sites. 
 
     - I can easily locate contact information at any point in my journey through the site. 
-        - There is a separate **Contact Us** accessible from the navigation menu.
+        - There is a separate **Contact Us** page accessible from the navigation menu.
         - Footer with contact details is always visible.
 
     - I can get in touch with the company in several different ways, whichever suits me best.
         - The contact details provided include: e-mail, telephone number and Contact Us form.
 
     - I can check the company's presence and reviews on their social media.
-        - The footer contains icons linked to business's social media site.
+        - The footer contains icons linked to social media sites.
 
 2. As a returning site user:
     - On returning to the site on a different device I have the same experience and ease of navigation.
-        - Ensured that all features work in the same way on all browsers.
-        - Responsive design to ensure that each page displays content in a way that is suitable for the size of the screen being used.
+        - The site was tested on various devices and browsers to ensure that all features work in the same way on all browsers.
+        - Implemented responsive design to ensure that each page displays content in a way that is suitable for the size of the screen being used.
 
     - I can easily navigate to the information that is relevant to me. 
         - Various links and organisation of the content make it easy for me as a user to find and focus specifically on the information relevant to the me.
@@ -187,11 +187,11 @@ As expected, at present the form is not connected to any database.
 ## <a name="credits"></a> Credits
 
 Great thanks to: 
-- my mentor for pointing me in the right direction and making sure I am on track
-- Hover.css for help in styling footer animations and Contact From submit buttons
+- My mentor for pointing me in the right direction and making sure I am on track.
+- Hover.css for help in styling footer animations and Contact From submit buttons.
 - https://webdesignerhut.com/pure-css-accordion-using-radio-buttons/ and https://tympanus.net/Tutorials/CSS3ImageAccordion/ sites for the inspiration and parts of code for the accordion sections on the Services page
-- photographers kindly allowing for a free use of their photos via the sites mentioned in the Media section below: Andrea Piacquadio, Kindel Media, William Fortunato, Tma Miroshnichenko, PNW Production, Moose Photos, Mikhail Nilov, Lukas and Andrew Neel, Marek Studziński, Matthew Sleeper, Viktor Hanacek
-- Stackoverflow community and code-boxx for various hints and tips
+- Photographers kindly allowing for a free use of their photos via the sites mentioned in the Media section below: Andrea Piacquadio, Kindel Media, William Fortunato, Tma Miroshnichenko, PNW Production, Moose Photos, Mikhail Nilov, Lukas and Andrew Neel, Marek Studziński, Matthew Sleeper, Viktor Hanacek.
+- Stackoverflow community and code-boxx for various hints and tips.
 
 ### Content
 The text for individual pages was provided in full by Domus Mea Finance owner. 
