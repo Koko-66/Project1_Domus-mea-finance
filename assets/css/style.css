@@ -10,7 +10,9 @@
 91c0b7 - blue
 #84333e; - red
 #grey - rgb(168,169,172) 
-charcoal - rgba(38, 37, 40, 1)
+charcoal - rgba(38, 37, 40, 1)\
+
+gold -selected by dotty - #dcb663; rgba(220,182,99,255)
 */
 
 * {
