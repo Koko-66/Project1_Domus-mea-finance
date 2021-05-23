@@ -40,18 +40,16 @@ As the project progressed certain changes were applied to increase the value for
 
 ## Features
 
-### General Features
-
 The website includes the following features: 
 
-#### Header and Footer
+### Header and Footer
 Header and footer remain the same across all pages and are fully responsive. 
 
-##### Header features:
+#### Header features:
 - navigation bar at the top with the name of the current page highlighted and a hover animation
 - hero image, logo and tagline providing a quick introduction of the business purpose.
 
-##### Footer features:
+#### Footer features:
 - company contact details: e-mail address, telephone number and links to social media.
 - The e-mail and telephone number are linked to the email and phone clients to facilitate contact directly from the site.
 - _Recommend Us on Social Media_ section with links to the social media sites. For the purpose of the course the links are generic but on live site, they will be linked to the company profiles.
@@ -60,40 +58,34 @@ The header and footer layout changes to fit in the mobile devices. Screenshots o
 - [Desktop layout](assets/data/Large_header_and_footer.png)
 - [Mobile layout](assets/data/Small_header_and_footer.png)
 
-#### Home Page: 
-__Home Page__ contains the following information: 
-- _Our Services_ section with general overview of the three main types of services offered &ndash; mortgages, equity release and protection (or insurance). At the end of each introductory text there is a link to the specific section on that service on the ==Services page==.
+### Home Page
+Home Page contains the following information: 
+- _Our Services_ section with general overview of the three main types of services offered &ndash; mortgages, equity release and protection (or insurance). At the end of each introductory text there is a link to the specific section on that service on the Services page.
 - _Why Chose Us?_ section with information about the company, their ethos, experience - the company's selling pitch.
 - _What Clients Say?_ section contains reviews lifted from the business's social media sites. 
 - _Accredited By_ section with logos of the organisation from which the company received accreditation and is a member of. These link to the organisations' sites, which open in another tab.
 
 The content of each section has been adjusted for viewing on smaller screens: the sections with a row of three images (_Our Services_ and _What Our Clients Say?_) switch to a view of a single image per row with; the text content presented as two columns switches to one column and the _Accredited By_ section becomes hidden.
 
-#### Services: 
+### Services
 This page is split into 3 separate sections with more details about each service type and their sub-types.
 
-##### Mortgages section - accordion:
+#### Mortgages section - accordion
 Being the core service offered by the business, this appears first. 
 Having considered that there are 6 types of this service, and the amount of text describing each, I decided to use accordions allowing the user to select the service they would like to read about and hide other content from view. This way the user is not forced to scroll through a lot of irrelevant content while searching for what is of interest to them. 
-Residential mortgages, being most of the the company's business, were chosen as the section visible to the user when  first loading the page.
+Residential mortgages, being most of the the company's business, were chosen as the section visible to the user when first loading the page on larger devices. On smaller devices all content is initially folded.
 
 The accordion showing on the larger devices (over 700px) is different to that used on smaller devices and both have been scripted using only CSS (radio-buttons with transition and display: none methods, using inspiration and ideas from an existing site and a tutorial, see [Credits](#credits) section below).
 
-Accordion on large screen: 
-(image here)
-
-Accordion on smaller screen: 
-(image here)
-
 The initial idea for an accordion was a bit different to the final design. The accordion worked similarly but was arranged with labels running vertically on the side of individual divs, which my mentor recommended to change to improve user experience since it caused difficulty reading. 
 
-##### Equity Release and Protection sections: 
+#### Equity Release and Protection sections: 
 These are relatively text-heavy, therefore are presented on larger screens as two columns and one column on smaller ones. 
 Rather than using 'columns' within a paragraph, I used div elements to have greater control over how the text is split when the screen size changes. 
 
-#### Contact Us Page: 
+### Contact Us Page 
 
-__Contact Us__ page offers the user an option to contact the company using contact form.
+Contact Us page offers the user an option to contact the company using contact form.
 It includes front-end validation of input: 
 - name, e-mail and telephone number are set to required values;
 - e-mail requires an email format;
@@ -106,7 +98,7 @@ As expected, at present the form is not connected to any database.
 - A Polish version of the site
 - Section linking to industry news
 - Add highlight/colour to the selected label in the large accordion
-- adjust design for Dark mode
+- adjust design for dark mode
 
 ## Technologies Used
 
@@ -151,7 +143,7 @@ As expected, at present the form is not connected to any database.
 - Labels in large accordion on the Services page were not showing vertically on Safari; fixed issue by adding 'display: inline-block;' to .accordion-h.
 - On iPad Pro 9.7 inch in portrait view, the gap between the two columns in section using this layout was not visible; fixed by changing 'gap' styling to 'padding'.
 - In the Contact form, telephone number did not allow for a format with country code using '+'. Changed field type from number to 'tel'.
-- The images in _Our Services_ section on __Home Page__ when resizing the screen were pushed out of line. To fix it, changed the layout to fit text and images in separate divs on larger screens. 
+- The images in _Our Services_ section on Home Page when resizing the screen were pushed out of line. To fix it, changed the layout to fit text and images in separate divs on larger screens. 
 - The fix above caused and issue with the images no longer being visible on mobile. Fixed by duplicating the images in the paragraphs and setting them to 'display:none;' on larger screens.
 - The site does not have enough contrast when viewed in dark mode. This is still to be investigated.
 
@@ -169,7 +161,7 @@ As expected, at present the form is not connected to any database.
         - The site contains navigation bar, links to specific sections of the **Services** page on **Home Page** and _Back to Top_ link at the bottom of **Home Page** and **Services**.
 
     - I can find out more about the company, their ethos and professional affiliations.
-        - Home Page includes _About us_ and _Why Choose Us?_ sections with company statement, recommendations, and logos of professional bodies of which the company is a member with links to their sites. 
+        - Home Page includes _Why Choose Us?_ section with a company statement, a section with other customers testimonies, and logos of professional bodies of which the company is a member and is accredited by with links to their sites. 
 
     - I can easily locate contact information at any point in my journey through the site. 
         - There is a separate **Contact Us** accessible from the navigation menu.
